@@ -1,0 +1,32 @@
+{
+  "name": "dataviz-styleguide-bootstrap",
+  "version": "0.0.1",
+  "description": "UNHCR dataviz styleguide boostrap v4 version",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unhcr/dataviz-styleguide-bootstrap.git"
+  },
+  "author": "UNHCR FICSS/DPSM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unhcr/dataviz-styleguide-bootstrap/issues"
+  },
+  "homepage": "https://github.com/unhcr/dataviz-styleguide-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "install": "^0.10.2",
+    "jquery": "^3.2.1",
+    "npm": "^5.5.1",
+    "popper.js": "^1.12.9",
+    "tether": "^1.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
