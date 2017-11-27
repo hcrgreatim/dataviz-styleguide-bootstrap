@@ -1,5 +1,7 @@
 # dataviz-styleguide-bootstrap
 
+work-in-progress
+
 1. `npm install`
 2. `gulp` - opens in browser http://localhost:3000
 
