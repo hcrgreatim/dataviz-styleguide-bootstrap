@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>dataviz-styleguide-bootstrap</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/unhcr-bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/3.0.5/tocbot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unhcr-header.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+    <div id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container menu top_container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="navbar-brand">
+						<img class="hidden-xs" src="assets/images/unhcr-logo.png">
+						<img class="visible-xs" src="assets/images/unhcr-logo.png">
+					</div>
+
+					<div class="title hidden-xs"><a href="/en/search"><span>DATAVIZ</span> Styleguide</a></div>
+					<div class="titlesmall visible-xs"><a href="/en/search" font-size="6"><span>DATAVIZ</span> Styleguide</a></div>
+
+					<div class="actions">
+						<ul>
+							<li class="search"><a href="#" title="Search" onclick="openPrimarySearch(event);">Search</a></li>
+							<li class="menu" id="primary-nav-expand"><a href="#" onclick="expandPrimaryNav(event);">Menu</a></li>
+							<li class="menu" id="primary-nav-expand-responsive"><a href="#" data-toggle="collapse" data-target=".navHeaderCollapse">Menu</a></li>
+						</ul>
+					</div>
+
+					<div class="hdr--utility">
+						<nav class="utility">
+							<ul>
+								<li><a href="http://media.unhcr.org" title="Media centre">Media Centre</a></li>
+								<li><a href="http://data2.unhcr.org/en/situations" title="Media centre">Data Portal</a></li>
+								<li><a href="http://popstats.unhcr.org/en/overview" title="Refworld">Population Statistics</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar-wrapper">
+			<div class="container menu">
+				<div class="row row-primary-nav">
+					<div class="col-md-12">
+						<div class="collapse navbar-collapse navHeaderCollapse" id="primary-nav">
+							<ul class="nav navbar-nav navbar-left">
+								<li ><a href="/styles.html">STYLES</a></li>
+								<li class="active"><a href="/charts.html">Charts</a></li>
+								<li ><a href="/maps.html">Maps</a></li>
+								<li ><a href="/webcomponents.html">Web Components</a></li>
+								<li ><a href="/resources.html">resources</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</nav></div>
+
+	<div class="row row-primary-nav-search hide-search">
+		<div class="col-md-12" id="primary-nav-search-wrapper">
+			<form action="/en/search" method="get" class="navbar-form" role="search">
+				<div class="form-group">
+					<div class="input-group">
+						<input type="text" class="form-control search" placeholder="Search..." name="any_OR_geokeyword">
+						<input type="submit" class="input-group-addon" value="search">
+					</div>
+				</div>
+			</form>
+			<a href="#_" title="Close search" class="icon-close" onclick="closePrimarySearch(event);">Close search</a>
+		</div>
+	</div>
+
+<div class="container container-margin-bottom">
+
+    <div class="row">
+
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3 js-toc">
+            <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+        </div>
+
+        <!-- main content area -->
+        <div class="col-sm-9 js-toc-content">
+           
+
+  <h3>Bar Chart</h3>
+
+  <p>The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale. The Bar Chart's discrete data is categorical data.</p>
+
+  <p>As a variation of the Bar Chart, Muti-Set Bar Chart is used when two or more data series are plotted side-by-side and grouped together under categories, all on the same axis.It’s usually to compare grouped variables or categories to other groups with those same variables or category types. The downside of Multi-Set Bar Charts is that they become harder to read the more bars you have in one group.</p>
+
+  <h4>Best practices</h4>
+  <ul>
+      <li>Use consistent colors throughout the chart. A specific bar can be highlighted with a different shade.</li>
+      <li>Always start at the zero baseline</li>
+      <li>The width of the space between the bars should be about half of width of the bars.</li>
+      <li>Use horizontal labels to improve readability.</li>
+      <li>Don’t use any shadow or 3D effect on the bars as they contain no information or data.</li>
+      <li>The shading of the bars should move from lightest to darkest when it’s Muti-Set Chart.</li>
+      <li>The bars should be ranked from the largest to the smallest or vice versa when it’s horizontal bar chart (there are some exceptions like they ranked in alphabetical order to facilitate reading)</li>
+      <li>Keep the negative number on the left side of baseline and positive number on the right side of baseline.</li>
+  </ul>
+
+  <h3>Line Chart</h3>
+  <p>more contet</p>
+
+
+       </div>
+   </div>
+
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/unhcr.js"></script>
+<script src="/js/tether.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/3.0.5/tocbot.min.js"></script>
+
+<script>
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.js-toc',
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.js-toc-content',
+      // Which headings to grab inside of the contentSelector element.
+      headingSelector: 'h2, h3, h4, h5',
+  });
+</script>
+
+</body>
+</html>

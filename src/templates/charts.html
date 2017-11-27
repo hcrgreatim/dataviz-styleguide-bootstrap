@@ -1,0 +1,27 @@
+{% set page = 'charts' %}
+{% extends 'layout.html' %}
+
+{% block content %}
+
+  <h3>Bar Chart</h3>
+
+  <p>The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale. The Bar Chart's discrete data is categorical data.</p>
+
+  <p>As a variation of the Bar Chart, Muti-Set Bar Chart is used when two or more data series are plotted side-by-side and grouped together under categories, all on the same axis.It’s usually to compare grouped variables or categories to other groups with those same variables or category types. The downside of Multi-Set Bar Charts is that they become harder to read the more bars you have in one group.</p>
+
+  <h4>Best practices</h4>
+  <ul>
+      <li>Use consistent colors throughout the chart. A specific bar can be highlighted with a different shade.</li>
+      <li>Always start at the zero baseline</li>
+      <li>The width of the space between the bars should be about half of width of the bars.</li>
+      <li>Use horizontal labels to improve readability.</li>
+      <li>Don’t use any shadow or 3D effect on the bars as they contain no information or data.</li>
+      <li>The shading of the bars should move from lightest to darkest when it’s Muti-Set Chart.</li>
+      <li>The bars should be ranked from the largest to the smallest or vice versa when it’s horizontal bar chart (there are some exceptions like they ranked in alphabetical order to facilitate reading)</li>
+      <li>Keep the negative number on the left side of baseline and positive number on the right side of baseline.</li>
+  </ul>
+
+  <h3>Line Chart</h3>
+  <p>more contet</p>
+
+{% endblock %}

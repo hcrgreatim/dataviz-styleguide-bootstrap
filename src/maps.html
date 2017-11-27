@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>dataviz-styleguide-bootstrap</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/unhcr-bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/3.0.5/tocbot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unhcr-header.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+    <div id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container menu top_container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="navbar-brand">
+						<img class="hidden-xs" src="assets/images/unhcr-logo.png">
+						<img class="visible-xs" src="assets/images/unhcr-logo.png">
+					</div>
+
+					<div class="title hidden-xs"><a href="/en/search"><span>DATAVIZ</span> Styleguide</a></div>
+					<div class="titlesmall visible-xs"><a href="/en/search" font-size="6"><span>DATAVIZ</span> Styleguide</a></div>
+
+					<div class="actions">
+						<ul>
+							<li class="search"><a href="#" title="Search" onclick="openPrimarySearch(event);">Search</a></li>
+							<li class="menu" id="primary-nav-expand"><a href="#" onclick="expandPrimaryNav(event);">Menu</a></li>
+							<li class="menu" id="primary-nav-expand-responsive"><a href="#" data-toggle="collapse" data-target=".navHeaderCollapse">Menu</a></li>
+						</ul>
+					</div>
+
+					<div class="hdr--utility">
+						<nav class="utility">
+							<ul>
+								<li><a href="http://media.unhcr.org" title="Media centre">Media Centre</a></li>
+								<li><a href="http://data2.unhcr.org/en/situations" title="Media centre">Data Portal</a></li>
+								<li><a href="http://popstats.unhcr.org/en/overview" title="Refworld">Population Statistics</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar-wrapper">
+			<div class="container menu">
+				<div class="row row-primary-nav">
+					<div class="col-md-12">
+						<div class="collapse navbar-collapse navHeaderCollapse" id="primary-nav">
+							<ul class="nav navbar-nav navbar-left">
+								<li ><a href="/styles.html">STYLES</a></li>
+								<li ><a href="/charts.html">Charts</a></li>
+								<li class="active"><a href="/maps.html">Maps</a></li>
+								<li ><a href="/webcomponents.html">Web Components</a></li>
+								<li ><a href="/resources.html">resources</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</nav></div>
+
+	<div class="row row-primary-nav-search hide-search">
+		<div class="col-md-12" id="primary-nav-search-wrapper">
+			<form action="/en/search" method="get" class="navbar-form" role="search">
+				<div class="form-group">
+					<div class="input-group">
+						<input type="text" class="form-control search" placeholder="Search..." name="any_OR_geokeyword">
+						<input type="submit" class="input-group-addon" value="search">
+					</div>
+				</div>
+			</form>
+			<a href="#_" title="Close search" class="icon-close" onclick="closePrimarySearch(event);">Close search</a>
+		</div>
+	</div>
+
+<div class="container container-margin-bottom">
+
+    <div class="row">
+
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3 js-toc">
+            <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+        </div>
+
+        <!-- main content area -->
+        <div class="col-sm-9 js-toc-content">
+           
+
+  <h3>Maps</h3>
+  
+
+       </div>
+   </div>
+
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/unhcr.js"></script>
+<script src="/js/tether.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/3.0.5/tocbot.min.js"></script>
+
+<script>
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.js-toc',
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.js-toc-content',
+      // Which headings to grab inside of the contentSelector element.
+      headingSelector: 'h2, h3, h4, h5',
+  });
+</script>
+
+</body>
+</html>

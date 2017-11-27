@@ -1,11 +1,11 @@
-// overrides go here
+// bootstrap overrides go here
 
 // for example
 $green: #00FFC4;
 $brand-primary: $green;
 $link-color: $green;
-$body-bg: #FAFAFA;
+$body-bg: #FFF;
 
 $font-family-sans-serif: "Lato", Arial, sans-serif;
 
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";

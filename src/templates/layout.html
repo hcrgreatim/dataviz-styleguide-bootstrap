@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>dataviz-styleguide-bootstrap</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/unhcr-bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/3.0.5/tocbot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unhcr-header.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+    {% include 'header.html' %}
+
+<div class="container container-margin-bottom">
+
+    <div class="row">
+
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3 js-toc">
+            <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+        </div>
+
+        <!-- main content area -->
+        <div class="col-sm-9 js-toc-content">
+           {% block content %}{% endblock %}
+       </div>
+   </div>
+
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/unhcr.js"></script>
+<script src="/js/tether.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/3.0.5/tocbot.min.js"></script>
+
+<script>
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.js-toc',
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.js-toc-content',
+      // Which headings to grab inside of the contentSelector element.
+      headingSelector: 'h2, h3, h4, h5',
+  });
+</script>
+
+</body>
+</html>
