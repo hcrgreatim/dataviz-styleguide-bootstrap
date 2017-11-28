@@ -14,7 +14,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#toc">
+<body>
 
     <div id="header">
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -88,11 +88,15 @@
 
 <div class="container container-margin-bottom">
 
+<div class="js-toc">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+            
     <div class="row">
 
         <!-- sidebar, which will move to the top on a small screen -->
-        <div class="col-sm-3 js-toc">
-            <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+        <div class="col-sm-3">
+
         </div>
 
         <!-- main content area -->
@@ -100,6 +104,7 @@
            
        </div>
    </div>
+
 
 </div>
 
@@ -116,7 +121,7 @@
       // Where to grab the headings to build the table of contents.
       contentSelector: '.js-toc-content',
       // Which headings to grab inside of the contentSelector element.
-      headingSelector: 'h2, h3, h4, h5',
+      headingSelector: 'h3, h4',
   });
 </script>
 
