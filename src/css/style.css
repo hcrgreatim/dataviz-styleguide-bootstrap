@@ -23,9 +23,8 @@ nav[data-toggle='toc'] {
 }
 
 .js-toc {
-	padding-top: 20px;
   position: fixed;
-  top: 90px;
+  top: 113px;
 }
 
 .js-toc li {
@@ -34,4 +33,12 @@ list-style-type: none;
 
 .is-active-link::before {
     background-color: #0172bc;
+}
+
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    display: block;
+    content: " ";
+    height: 103px;
+    margin-top: -103px;
+    visibility: hidden;
 }
