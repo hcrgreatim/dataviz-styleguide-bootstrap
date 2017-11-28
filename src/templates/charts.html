@@ -3,57 +3,74 @@
 
 {% block content %}
 
-  <h3 id="bar-chart">Bar Chart</h3>
+<h2 id="charts">Charts</h2>
 
-  <p>The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale. The Bar Chart's discrete data is categorical data.</p>
+<h3 id="text-styles">Text Styles</h3>
 
-  <p>As a variation of the Bar Chart, Muti-Set Bar Chart is used when two or more data series are plotted side-by-side and grouped together under categories, all on the same axis.It’s usually to compare grouped variables or categories to other groups with those same variables or category types. The downside of Multi-Set Bar Charts is that they become harder to read the more bars you have in one group.</p>
+<p>UNHCR main fonts of choice are Proxima Nova, Lato and Arial. Following the open-source aspect of this guideline we will
+use and recommend Lato throughout the different templates and examples.</p>
 
-  <h4 id="bar-chart-best-practices">Best practices</h4>
-  <ul>
-      <li>Use consistent colors throughout the chart. A specific bar can be highlighted with a different shade.</li>
-      <li>Always start at the zero baseline</li>
-      <li>The width of the space between the bars should be about half of width of the bars.</li>
-      <li>Use horizontal labels to improve readability.</li>
-      <li>Don’t use any shadow or 3D effect on the bars as they contain no information or data.</li>
-      <li>The shading of the bars should move from lightest to darkest when it’s Muti-Set Chart.</li>
-      <li>The bars should be ranked from the largest to the smallest or vice versa when it’s horizontal bar chart (there are some exceptions like they ranked in alphabetical order to facilitate reading)</li>
-      <li>Keep the negative number on the left side of baseline and positive number on the right side of baseline.</li>
-  </ul>
+<p>Find here our recommendations for a clear chart typography. Keep in mind every visualisation has different constrains so there might be a need to change font weight and size.</p>
 
-  <h3 id="line-chart">Line Chart</h3>
-  <p>A line chart reveals trends or progress over time and can be used to show many different categories of data. You should use it when you chart a continuous data set.</p>
+<p>Even if we will recommend Lato please feel free to exchange it with Proxima Nova (should be the font of choice for high
+level publication) if you have the license and font on your computer (available through Adobe Typekit), or with Arial if it is
+the only font, of the three recommended, available on your computer.</p>
 
-  <p>Line Graphs are used to display quantitative values over a continuous interval or time period. A Line Graph is most frequently used to show trends and analyze how the data has changed over time. The line's journey across the graph can create patterns that reveal trends in a dataset. Unlike a bar chart, the line char does not require a zero baseline.</p>
+<p>Lato can be downloaded or embedded into web projects from Google Fonts.</p>
 
-  <p>When grouped with other lines (other data series), individual lines can be compared to one another. However, avoid using more than 3-4 lines per graph, as this makes the chart more cluttered and harder to read. A solution to this is to divide the chart into smaller multiples (have a small Line Graph for each data series)
-  </p>
+<img src="assets/images/chart-typography.svg"/>
 
-  <h4 id="line-chart-best-practices">Best practices</h4>
+<h3 id="bar-chart">Bar Chart</h3>
 
-  <ul>
-      <li>Use solid lines only.</li>
-      <li>Use the right weight so the line can stand out against the grid line but also show the twists and turns of the line</li>
-      <li>Don't plot more than 4 lines to avoid visual distractions.</li>
-      <li>Use the right height so the lines take up roughly 2/3 of the y-axis' height.</li>
-      <li>Keep the grid lines thin and the baseline slightly thicker than the rest of the grid lines.</li>
-      <li>Keep it simple and use natural increments</li>
-      <li>Avoid labeling at long distance, try to label the lines directly </li>
-      <li>Use a legend only when space is tight and the lines intersect extensively.</li>
-      <li>The order of the legend should match the ranking of the end points</li>
-      <li>No shadow and 3D</li>
-  </ul>
+<p>The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale. The Bar Chart's discrete data is categorical data.</p>
 
-  <h3 id="mixed-chart">Mixed Chart</h3>
+<p>As a variation of the Bar Chart, Muti-Set Bar Chart is used when two or more data series are plotted side-by-side and grouped together under categories, all on the same axis.It’s usually to compare grouped variables or categories to other groups with those same variables or category types. The downside of Multi-Set Bar Charts is that they become harder to read the more bars you have in one group.</p>
 
-  <p>A dual axis chart allows you to plot data using two y-axes and a shared x-axis. It's used with two data sets, one of which is based on a continuous set of data and another which is better suited to being grouped by category. This should be used to visualize a correlation or the lack thereof between these two data sets.</p>
+<h4 id="bar-chart-best-practices">Best practices</h4>
+<ul>
+  <li>Use consistent colors throughout the chart. A specific bar can be highlighted with a different shade.</li>
+  <li>Always start at the zero baseline</li>
+  <li>The width of the space between the bars should be about half of width of the bars.</li>
+  <li>Use horizontal labels to improve readability.</li>
+  <li>Don’t use any shadow or 3D effect on the bars as they contain no information or data.</li>
+  <li>The shading of the bars should move from lightest to darkest when it’s Muti-Set Chart.</li>
+  <li>The bars should be ranked from the largest to the smallest or vice versa when it’s horizontal bar chart (there are some exceptions like they ranked in alphabetical order to facilitate reading)</li>
+  <li>Keep the negative number on the left side of baseline and positive number on the right side of baseline.</li>
+</ul>
 
-  <h4 id="mixed-chart-best-practices">Best practices</h4>
-  <ul>
-      <li>Use the y-axis on the left side for the primary variable because brains are naturally inclined to look left first.
-      <li>Use different graphing styles to illustrate the two data sets, as illustrated above.</li>
-      <li>Choose contrasting colors for the two data sets.</li>
-      <li>Always label the scale clearly to avoid any confusion</li>
+<h3 id="line-chart">Line Chart</h3>
+<p>A line chart reveals trends or progress over time and can be used to show many different categories of data. You should use it when you chart a continuous data set.</p>
+
+<p>Line Graphs are used to display quantitative values over a continuous interval or time period. A Line Graph is most frequently used to show trends and analyze how the data has changed over time. The line's journey across the graph can create patterns that reveal trends in a dataset. Unlike a bar chart, the line char does not require a zero baseline.</p>
+
+<p>When grouped with other lines (other data series), individual lines can be compared to one another. However, avoid using more than 3-4 lines per graph, as this makes the chart more cluttered and harder to read. A solution to this is to divide the chart into smaller multiples (have a small Line Graph for each data series)
+</p>
+
+<h4 id="line-chart-best-practices">Best practices</h4>
+
+<ul>
+  <li>Use solid lines only.</li>
+  <li>Use the right weight so the line can stand out against the grid line but also show the twists and turns of the line</li>
+  <li>Don't plot more than 4 lines to avoid visual distractions.</li>
+  <li>Use the right height so the lines take up roughly 2/3 of the y-axis' height.</li>
+  <li>Keep the grid lines thin and the baseline slightly thicker than the rest of the grid lines.</li>
+  <li>Keep it simple and use natural increments</li>
+  <li>Avoid labeling at long distance, try to label the lines directly </li>
+  <li>Use a legend only when space is tight and the lines intersect extensively.</li>
+  <li>The order of the legend should match the ranking of the end points</li>
+  <li>No shadow and 3D</li>
+</ul>
+
+<h3 id="mixed-chart">Mixed Chart</h3>
+
+<p>A dual axis chart allows you to plot data using two y-axes and a shared x-axis. It's used with two data sets, one of which is based on a continuous set of data and another which is better suited to being grouped by category. This should be used to visualize a correlation or the lack thereof between these two data sets.</p>
+
+<h4 id="mixed-chart-best-practices">Best practices</h4>
+<ul>
+  <li>Use the y-axis on the left side for the primary variable because brains are naturally inclined to look left first.
+    <li>Use different graphing styles to illustrate the two data sets, as illustrated above.</li>
+    <li>Choose contrasting colors for the two data sets.</li>
+    <li>Always label the scale clearly to avoid any confusion</li>
   </ul>
 
   <h3 id="area-chart">Area Charts</h3>
@@ -64,9 +81,9 @@
 
   <h4 id="area-chart-best-practices">Best practices</h4>
   <ul>
-      <li>Use transparent colors so information isn't obscured in the background.</li>
-      <li>Don't display more than four categories to avoid clutter.</li>
-      <li>Organize highly variable data at the top of the chart to make it easy to read.</li>
+    <li>Use transparent colors so information isn't obscured in the background.</li>
+    <li>Don't display more than four categories to avoid clutter.</li>
+    <li>Organize highly variable data at the top of the chart to make it easy to read.</li>
   </ul>
 
   <h3 id="stacked-bar">Stacked Bar</h3>
@@ -85,9 +102,25 @@
     <li>Make chart scale large enough to view group sizes in relation to one another.</li>
   </ul>
 
-  
+  <h3 id="pie">Pie</h3>
+
+  <p>A pie chart shows a static number and composition of categories. A pie chart represents numbers in percentages, and the total sum of all segments needs to equal 100%. Pie Charts are ideal for giving the reader a quick idea of the proportional distribution of the data.</p>
+
+  <p>However Pie Charts should not be used to show complicated relationships among many segments, because they will be hard to read when the size of each segment/slice becomes smaller. This makes them unsuitable for large amounts of data. Besides they are not great for making accurate comparisons between groups of Pie Charts. 100% Stacked Bar Chart can be an alternative for those situations.</p>
+
+  <p>A donut chart is essentially a Pie Chart with an area of the center cut out. The blank space inside of the donut chart can be used to display extra information like the total value.</p>
+
+  <h4 id="pie-best-practices">Best practices</h4>
+  <ul>
+    <li>A pie chart should have less than five slices.</li>
+    <li>Place the largest segment at 12 o’clock on the right and the second largest segment on the left, the rest should follow counterclockwise.</li>
+    <li>Direct labeling if there’s enough space.</li>
+    <li>Ensure that the slice values add up to 100%.</li>
+    <li>No shadow and 3D</li>
+    <li>Keep the shading simple, highlight the important slice with different shading if needed.</li>
+  </ul>
 
 
 
 
-{% endblock %}
+  {% endblock %}
