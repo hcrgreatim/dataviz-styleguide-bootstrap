@@ -24,7 +24,8 @@ nav[data-toggle='toc'] {
 
 .js-toc {
 	padding-top: 20px;
-  
+  position: fixed;
+  top: 90px;
 }
 
 .js-toc li {
