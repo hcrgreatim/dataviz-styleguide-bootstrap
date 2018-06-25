@@ -106,10 +106,10 @@ font-size:12px;
 }
 
 body {
-  font-family: 'proxima_nova', lato, sans-serif;/*"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
+  font-family: Lato, sans-serif;/*"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
   padding-top: 101px; /* Because of fixed header, start content at 101px+ */
   /* margin-bottom: 50px; Fixed via sticky footer css */
 }
@@ -896,12 +896,12 @@ color: #1942C4;
   /*#footer .nav {
     float: right;
   }*/
-    
+
     /*#footer ul.nav li {
         width: 20%;
         margin-left: 0;
     }
-    
+
     #footer ul.nav li a {
         padding-left: 0;
         padding-right: 0;
