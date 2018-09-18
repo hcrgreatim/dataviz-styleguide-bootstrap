@@ -16,7 +16,7 @@
 
 <body>
 
-    <div id="header">
+  <div id="header">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container menu top_container">
 			<div class="row">
@@ -70,45 +70,47 @@
 			</div>
 		</div>
 
-	</nav></div>
+	</nav>
+</div>
 
-	<div class="row row-primary-nav-search hide-search">
-		<div class="col-md-12" id="primary-nav-search-wrapper">
-			<form action="/en/search" method="get" class="navbar-form" role="search">
-				<div class="form-group">
-					<div class="input-group">
-						<input type="text" class="form-control search" placeholder="Search..." name="any_OR_geokeyword">
-						<input type="submit" class="input-group-addon" value="search">
-					</div>
+<div class="row row-primary-nav-search hide-search">
+	<div class="col-md-12" id="primary-nav-search-wrapper">
+		<form action="/en/search" method="get" class="navbar-form" role="search">
+			<div class="form-group">
+				<div class="input-group">
+					<input type="text" class="form-control search" placeholder="Search..." name="any_OR_geokeyword">
+					<input type="submit" class="input-group-addon" value="search">
 				</div>
-			</form>
-			<a href="#_" title="Close search" class="icon-close" onclick="closePrimarySearch(event);">Close search</a>
-		</div>
+			</div>
+		</form>
+		<a href="#_" title="Close search" class="icon-close" onclick="closePrimarySearch(event);">Close search</a>
 	</div>
+</div>
 
-    <div class="container container-margin-bottom">
 
-        <div class="js-toc">
-            <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+  <div class="container container-margin-bottom">
+
+    <div class="js-toc">
+        <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+    </div>
+
+    <div class="row">
+
+        <!-- sidebar table of contents -->
+        <div class="col-sm-3">
+
         </div>
 
-        <div class="row">
-
-            <!-- sidebar table of contents -->
-            <div class="col-sm-3">
-
-            </div>
-
-            <!-- main content area -->
-            <div class="col-sm-9 js-toc-content">
-             
+        <!-- main content area -->
+        <div class="col-sm-9 js-toc-content">
+         
 
   <h3>Home</h3>
   
 
-           </div>
        </div>
-
+       
+   </div>
 
  </div>
 
@@ -129,7 +131,7 @@
       // Where to grab the headings to build the table of contents.
       contentSelector: '.js-toc-content',
       // Which headings to grab inside of the contentSelector element.
-      headingSelector: 'h2, h3, h4',
+      headingSelector: 'h2, h3',
   });
 </script>
 

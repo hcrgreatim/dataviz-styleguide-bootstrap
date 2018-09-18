@@ -3,99 +3,112 @@
 
 {% block content %}
 
-  <h2 id="styles">Styles</h2>
-  <h3 id="brandbook">UNHCR Brandbook</h3>
+<section>
+  <h2 id="brandbook">UNHCR Brandbook</h2>
   <p>The <a href="https://media.unhcr.org/brand">brand book</a> has been designed to inform all of our internal and external communications activities. It has been developed and informed by qualitative and quantitative research conducted in multiple countries with our key stakeholders, including refugees, governments, corporations, fundraising partners and members of the public.</p>
   <p>All of our communications should convey our unique visual style and key messages. The following guidelines help ensure that our look, feel and language are consistent throughout the world.</p>
-  <a href="https://media.unhcr.org/brand"><img src="assets/images/unhcr-brandbook.svg" alt="UNHCR brand book cover">Download Brand Book</a>
-  <h3 id="fonts">Fonts</h3>
+  <a href="https://media.unhcr.org/brand"><img src="assets/images/unhcr-brandbook.svg" alt="UNHCR brand book cover"></a>
+  <button type="button" class="btn btn-primary btn-lg"><a href="https://media.unhcr.org/brand">Download brandbook</a></button>
+</section>
+
+<section>
+  <h2 id="fonts">Fonts</h2>
   <p>Consistency in the use of a typeface plays an important role in reinforcing our organisation’s image. Maintaining rules of type layout will help ensure we have a uniform identity.</p>
   <p><strong>Primary typeface: <a href="#">Proxima Nova</a></strong><br>Should be used as the primary font for all high level publications and products. The Proxima Nova font family can be found on Adobe Typekit.</p>
   <p><strong>Secondary typeface: <a href="#">Lato</a></strong><br>The secondary typeface may be used when Proxima Nova is not available and is recommended for digital work, as it’s easy to implement on websites. Lato can be found on Google Fonts.</p>
   <p><strong>System typeface: <a href="#">Arial</a></strong><br>In certain situations, the primary and secondary typefaces may be unavailable. In these cases, it is acceptable to use an approved crossplatform system typeface generally available on most computers.</p>
   <p>For more information on fonts and typographic hierarchy please refer to the <a href="https://media.unhcr.org/brand">brand book</a>.</p>
-  <h3 id="colors">Colors</h3>
+  <img src="assets/images/fonts-main.svg" alt="" class="mw-75 mx-auto">
+</section>
+
+<section>
+  <h2 id="colors">Colors</h2>
   <p>UNHCR uses a basic colour palette to avoid using different versions of the same colour. We encourage using the primary colour set on most materials. Percentage tints can be used where appropriate.</p>
   <p>Use <a href="https://en.wikipedia.org/wiki/CMYK_color_model">CMYK</a> colors on coated and uncoated paper for offset printing, such as magazines, brochures, leaflets, full colour ads, etc.</p>
   <p>Use <a href="https://en.wikipedia.org/wiki/RGB_color_model">RGB</a> colors for computer presentations, digital displays, TV productions, etc.</p>
   <p>Use <a href="https://en.wikipedia.org/wiki/Web_colors#Hex_triplet">HEX</a> colors online.</p>
   <p>For more information on colors and how to apply them please refer to the <a href="https://media.unhcr.org/brand">brand book</a>.</p>
-  <h4>UNHCR main colors</h4>
+
   <div class="row">
-    <div class="col-md-2">
-      <div class="p-2 text-white rounded" style="background-color: #0072bc;">
-        <p class="text-uppercase m-0"><strong>UNHCR Blue</strong><br>RGB 0 114 188<br>HEX #0072BC<br>CMYK 99 50 0 0</p>
+    <div class="col-md-9">
+      <h5 class="font-weight-bold">Primary colors</h5>
+      <div class="col-md-4">
+        <div class="p-2 text-white rounded" style="background-color: #0072bc;">
+          <p class="text-uppercase m-0"><strong>UNHCR Blue</strong><br>RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-2 text-white rounded" style="background-color: #000000;">
+          <p class="text-uppercase m-0"><strong>Black</strong><br>RGB: 0, 0, 0<br>HEX: #000000<br>CMYK: 0, 0, 0, 100</p>
+        </div>
+      </div><div class="col-md-4">
+        <div class="p-2 rounded border">
+          <p class="text-uppercase m-0"><strong>White</strong><br>RGB: 255, 255, 255<br>HEX: #FFFFFF<br>CMYK: 0, 0, 0, 0</p>
+        </div>
       </div>
     </div>
-    <div class="col-md-2">
-      <div class="p-2 text-white rounded" style="background-color: #000000;">
-        <p class="text-uppercase m-0"><strong>Black</strong><br>RGB 0 0 0<br>HEX #000000<br>CMYK 0 0 0 100</p>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="p-2 rounded border">
-        <p class="text-uppercase m-0"><strong>White</strong><br>RGB 255 255 255<br>HEX #FFFFFF<br>CMYK 0 0 0 0</p>
-      </div>
-    </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
+      <h5 class="font-weight-bold">Accent color</h5>
       <div class="p-2 rounded" style="background-color: #faeb00;">
-        <p class="text-uppercase m-0"><strong>Yellow</strong><br>RGB 250 235 0<br>HEX #FAEB00<br>CMYK 3 1 100 0</p>
+        <p class="text-uppercase m-0"><strong>Yellow</strong><br>RGB: 250, 235, 0<br>HEX: #FAEB00<br>CMYK: 3, 1, 100, 0</p>
       </div>
     </div>
   </div>
-  <h4>Data colors</h4>
-  <h5>Main colors</h5>
+
+  <h3 id="data-colors">Data colors</h3>
+  <h4>Main colors</h4>
   <div class="row">
-    <div class="col-md-2">
-      <div class="p-2 text-white rounded" style="background-color: #0072bc;">
-        <p class="text-uppercase m-0">RGB 0 114 188<br>HEX #0072BC<br>CMYK 99 50 0 0</p>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
       </div>
     </div>
     <div class="col-md-2">
       <div class="p-2 text-white rounded" style="background-color: #000000;">
-        <p class="text-uppercase m-0">RGB 0 0 0<br>HEX #000000<br>CMYK 0 0 0 100</p>
+        <p class="text-uppercase m-0">RGB: 0, 0, 0<br>HEX: #000000<br>CMYK: 0, 0, 0, 100</p>
       </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 border">
       <div class="p-2 text-white rounded" style="background-color: #18375F;">
         <p class="text-uppercase m-0">RGB: 24, 55, 95<br>HEX: #18375F<br>CMYK: 99, 83, 36, 27</p>
       </div>
     </div>
-    <div class="col-md-2">
-      <div class="p-2 rounded" style="background-color: #00B398;">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #00B398;">
         <p class="text-uppercase m-0">RGB: 0, 179, 152<br>HEX: #00B398<br>CMYK: 90, 0, 52, 0</p>
       </div>
     </div>
-    <div class="col-md-2">
-      <div class="p-2 rounded" style="background-color: #EF4A60;">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #EF4A60;">
         <p class="text-uppercase m-0">RGB: 239, 74, 96<br>HEX: #EF4A60<br>CMYK: 0, 87, 52, 0</p>
       </div>
     </div>
-    <div class="col-md-2">
-      <div class="p-2 rounded" style="background-color: #F5C205;">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
         <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
       </div>
     </div>
-    <div class="col-md-2">
-      <div class="p-2 rounded" style="background-color: #338EC9;">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
         <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
       </div>
     </div>
-    <div class="col-md-2">
-      <div class="p-2 rounded" style="background-color: #cccccc;">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
         <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
       </div>
     </div>
   </div>
-  <h5>1 group, categorical</h5>
+
+  <h4>1 group, categorical</h4>
   <div class="row">
     <div class="col-md-2 border">
-      <div class="p-2 text-white rounded" style="background-color: #0072bc;">
-        <p class="text-uppercase m-0">RGB 0 114 188<br>HEX #0072BC<br>CMYK 99 50 0 0</p>
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
       </div>
     </div>
     <div class="col-md-2 border">
-      <div class="p-2 rounded" style="background-color: #338EC9;">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
         <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
       </div>
     </div>
@@ -106,7 +119,812 @@
     </div>
   </div>
 
-  <h3 id="layout">Layout</h3>
+  <h4>2 groups, categorical</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
+        <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66D1C1;">
+        <p class="text-uppercase m-0">RGB: 102, 209, 193<br>HEX: #66D1C1<br>CMYK: 54, 0, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>2 groups, sequential</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #99C7E4;">
+        <p class="text-uppercase m-0">RGB: 153, 199, 228<br>HEX: #99C7E4<br>CMYK: 40, 20, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F26E80;">
+        <p class="text-uppercase m-0">RGB: 242, 110, 128<br>HEX: #F26E80<br>CMYK: 0, 70, 42, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>3 groups, categorical</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66D1C1;">
+        <p class="text-uppercase m-0">RGB: 102, 209, 193<br>HEX: #66D1C1<br>CMYK: 54, 0, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66D1C1;">
+        <p class="text-uppercase m-0">RGB: 102, 209, 193<br>HEX: #66D1C1<br>CMYK: 54, 0, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
+        <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>3 groups, sequential</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #99C7E4;">
+        <p class="text-uppercase m-0">RGB: 153, 199, 228<br>HEX: #99C7E4<br>CMYK: 40, 20, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
+      </div>
+    </div>
+
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F26E80;">
+        <p class="text-uppercase m-0">RGB: 242, 110, 128<br>HEX: #F26E80<br>CMYK: 0, 70, 42, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #EF4A60;">
+        <p class="text-uppercase m-0">RGB: 239, 74, 96<br>HEX: #EF4A60<br>CMYK: 0, 87, 52, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>4 groups, categorical</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
+        <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66D1C1;">
+        <p class="text-uppercase m-0">RGB: 102, 209, 193<br>HEX: #66D1C1<br>CMYK: 54, 0, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>4 groups, sequential</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66AAD7;">
+        <p class="text-uppercase m-0">RGB: 102, 170, 215<br>HEX: #66AAD7<br>CMYK: 59, 30, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #00568D;">
+        <p class="text-uppercase m-0">RGB: 0, 86, 141<br>HEX: #00568D<br>CMYK: 99, 64, 19, 4</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F26E80;">
+        <p class="text-uppercase m-0">RGB: 242, 110, 128<br>HEX: #F26E80<br>CMYK: 0, 70, 42, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #EF4A60;">
+        <p class="text-uppercase m-0">RGB: 239, 74, 96<br>HEX: #EF4A60<br>CMYK: 0, 87, 52, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #B33848;">
+        <p class="text-uppercase m-0">RGB: 179, 56, 72<br>HEX: #B33848<br>CMYK: 21, 88, 59, 13</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>5 groups, categorical</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #18375F;">
+        <p class="text-uppercase m-0">RGB: 24, 55, 95<br>HEX: #18375F<br>CMYK: 99, 83, 36, 27</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
+        <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>5 groups, sequential</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #99C7E4;">
+        <p class="text-uppercase m-0">RGB: 153, 199, 228<br>HEX: #99C7E4<br>CMYK: 40, 20, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66AAD7;">
+        <p class="text-uppercase m-0">RGB: 102, 170, 215<br>HEX: #66AAD7<br>CMYK: 59, 30, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #00568D;">
+        <p class="text-uppercase m-0">RGB: 0, 86, 141<br>HEX: #00568D<br>CMYK: 99, 64, 19, 4</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #F9B7BF;">
+        <p class="text-uppercase m-0">RGB: 249, 183, 191<br>HEX: #F9B7BF<br>CMYK: 0, 35, 21, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F26E80;">
+        <p class="text-uppercase m-0">RGB: 242, 110, 128<br>HEX: #F26E80<br>CMYK: 0, 70, 42, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #EF4A60;">
+        <p class="text-uppercase m-0">RGB: 239, 74, 96<br>HEX: #EF4A60<br>CMYK: 0, 87, 52, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #B33848;">
+        <p class="text-uppercase m-0">RGB: 179, 56, 72<br>HEX: #B33848<br>CMYK: 21, 88, 59, 13</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>6 groups, categorical</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #18375F;">
+        <p class="text-uppercase m-0">RGB: 24, 55, 95<br>HEX: #18375F<br>CMYK: 99, 83, 36, 27</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66D1C1;">
+        <p class="text-uppercase m-0">RGB: 102, 209, 193<br>HEX: #66D1C1<br>CMYK: 54, 0, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
+        <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #18375F;">
+        <p class="text-uppercase m-0">RGB: 24, 55, 95<br>HEX: #18375F<br>CMYK: 99, 83, 36, 27</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>6 groups, sequential</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #CCE3F2;">
+        <p class="text-uppercase m-0">RGB: 204, 227, 242<br>HEX: #CCE3F2<br>CMYK: 16, 8, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #99C7E4;">
+        <p class="text-uppercase m-0">RGB: 153, 199, 228<br>HEX: #99C7E4<br>CMYK: 40, 20, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66AAD7;">
+        <p class="text-uppercase m-0">RGB: 102, 170, 215<br>HEX: #66AAD7<br>CMYK: 59, 30, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #00568D;">
+        <p class="text-uppercase m-0">RGB: 0, 86, 141<br>HEX: #00568D<br>CMYK: 99, 64, 19, 4</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #FCDBDF;">
+        <p class="text-uppercase m-0">RGB: 252, 219, 223<br>HEX: #FCDBDF<br>CMYK: 0, 17, 10, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #F9B7BF;">
+        <p class="text-uppercase m-0">RGB: 249, 183, 191<br>HEX: #F9B7BF<br>CMYK: 0, 35, 21, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F26E80;">
+        <p class="text-uppercase m-0">RGB: 242, 110, 128<br>HEX: #F26E80<br>CMYK: 0, 70, 42, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #EF4A60;">
+        <p class="text-uppercase m-0">RGB: 239, 74, 96<br>HEX: #EF4A60<br>CMYK: 0, 87, 52, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #B33848;">
+        <p class="text-uppercase m-0">RGB: 179, 56, 72<br>HEX: #B33848<br>CMYK: 21, 88, 59, 13</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>Different types of data</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <p>Positive</p>
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <p>Negative</p>
+      <div class="p-2 text-white rounded" style="background-color: #EF4A60;">
+        <p class="text-uppercase m-0">RGB: 239, 74, 96<br>HEX: #EF4A60<br>CMYK: 0, 87, 52, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <p>Neutral</p>
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
+        <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <p>No data</p>
+      <div class="p-2 text-white rounded" style="background-color: #E5E5E5;">
+        <p class="text-uppercase m-0">RGB: 229, 229, 229<br>HEX: #E5E5E5<br>CMYK: 0, 0, 0, 10</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>Shades and tints of main colours</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #CCE3F2;">
+        <p class="text-uppercase m-0">RGB: 204, 227, 242<br>HEX: #CCE3F2<br>CMYK: 16, 8, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #99C7E4;">
+        <p class="text-uppercase m-0">RGB: 153, 199, 228<br>HEX: #99C7E4<br>CMYK: 40, 20, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66AAD7;">
+        <p class="text-uppercase m-0">RGB: 102, 170, 215<br>HEX: #66AAD7<br>CMYK: 59, 30, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #338EC9;">
+        <p class="text-uppercase m-0">RGB: 51, 142, 201<br>HEX: #338EC9<br>CMYK: 79, 40, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #0072BC;">
+        <p class="text-uppercase m-0">RGB: 0, 114, 188<br>HEX: #0072BC<br>CMYK: 99, 50, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #00568D;">
+        <p class="text-uppercase m-0">RGB: 0, 86, 141<br>HEX: #00568D<br>CMYK: 99, 64, 19, 4</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #E5E5E5;">
+        <p class="text-uppercase m-0">RGB: 229, 229, 229<br>HEX: #E5E5E5<br>CMYK: 0, 0, 0, 10</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #CCCCCC;">
+        <p class="text-uppercase m-0">RGB: 204, 204, 204<br>HEX: #CCCCCC<br>CMYK: 0, 0, 0, 20</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #999999;">
+        <p class="text-uppercase m-0">RGB: 153, 153, 153<br>HEX: #999999<br>CMYK: 0, 0, 0, 40</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #666666;">
+        <p class="text-uppercase m-0">RGB: 102, 102, 102<br>HEX: #666666<br>CMYK: 0, 0, 0, 60</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #333333;">
+        <p class="text-uppercase m-0">RGB: 51, 51, 51<br>HEX: #333333<br>CMYK: 0, 0, 0, 80</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #000000;">
+        <p class="text-uppercase m-0">RGB: 0, 0, 0<br>HEX: #000000<br>CMYK: 0, 0, 0, 100</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #D1D7DF;">
+        <p class="text-uppercase m-0">RGB: 209, 215, 223<br>HEX: #D1D7DF<br>CMYK: 20, 17, 7, 5</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #A3AFBF;">
+        <p class="text-uppercase m-0">RGB: 163, 175, 191<br>HEX: #A3AFBF<br>CMYK: 40, 33, 14, 11</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #74879F;">
+        <p class="text-uppercase m-0">RGB: 116, 135, 159<br>HEX: #74879F<br>CMYK: 59, 50, 22, 16</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #465F7F;">
+        <p class="text-uppercase m-0">RGB: 70, 95, 127<br>HEX: #465F7F<br>CMYK: 79, 66, 29, 22</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #18375F;">
+        <p class="text-uppercase m-0">RGB: 24, 55, 95<br>HEX: #18375F<br>CMYK: 99, 83, 36, 27</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #122947;">
+        <p class="text-uppercase m-0">RGB: 18, 41, 71<br>HEX: #122947<br>CMYK: 99, 83, 36, 50</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #CCF0EA;">
+        <p class="text-uppercase m-0">RGB: 204, 240, 234<br>HEX: #CCF0EA<br>CMYK: 18, 0, 10, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #99E1D6;">
+        <p class="text-uppercase m-0">RGB: 153, 225, 214<br>HEX: #99E1D6<br>CMYK: 36, 0, 21, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #66D1C1;">
+        <p class="text-uppercase m-0">RGB: 102, 209, 193<br>HEX: #66D1C1<br>CMYK: 54, 0, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #33C2AD;">
+        <p class="text-uppercase m-0">RGB: 51, 194, 173<br>HEX: #33C2AD<br>CMYK: 72, 0, 42, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #00B398;">
+        <p class="text-uppercase m-0">RGB: 0, 179, 152<br>HEX: #00B398<br>CMYK: 90, 0, 52, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #00786C;">
+        <p class="text-uppercase m-0">RGB: 0, 120, 108<br>HEX: #00786C<br>CMYK: 88, 39, 62, 20</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #FCDBDF;">
+        <p class="text-uppercase m-0">RGB: 252, 219, 223<br>HEX: #FCDBDF<br>CMYK: 0, 17, 10, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #F9B7BF;">
+        <p class="text-uppercase m-0">RGB: 249, 183, 191<br>HEX: #F9B7BF<br>CMYK: 0, 35, 21, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F592A0;">
+        <p class="text-uppercase m-0">RGB: 245, 146, 160<br>HEX: #F592A0<br>CMYK: 0, 52, 31, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F26E80;">
+        <p class="text-uppercase m-0">RGB: 242, 110, 128<br>HEX: #F26E80<br>CMYK: 0, 70, 42, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #EF4A60;">
+        <p class="text-uppercase m-0">RGB: 239, 74, 96<br>HEX: #EF4A60<br>CMYK: 0, 87, 52, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #B33848;">
+        <p class="text-uppercase m-0">RGB: 179, 56, 72<br>HEX: #B33848<br>CMYK: 21, 88, 59, 13</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #FDF3CD;">
+        <p class="text-uppercase m-0">RGB: 253, 243, 205<br>HEX: #FDF3CD<br>CMYK: 1, 5, 19, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #FBE79B;">
+        <p class="text-uppercase m-0">RGB: 251, 231, 155<br>HEX: #FBE79B<br>CMYK: 2, 10, 38, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F9DA69;">
+        <p class="text-uppercase m-0">RGB: 249, 218, 105<br>HEX: #F9DA69<br>CMYK: 2, 14, 56, 0/p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F7CE37;">
+        <p class="text-uppercase m-0">RGB: 247, 206, 55<br>HEX: #F7CE37<br>CMYK: 3, 19, 75, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #F5C205;">
+        <p class="text-uppercase m-0">RGB: 245, 194, 5<br>HEX: #F5C205<br>CMYK: 4, 24, 94, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #B89204;">
+        <p class="text-uppercase m-0">RGB: 184, 146, 4<br>HEX: #B89204<br>CMYK: 3, 18, 71, 25</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #FEFBCC;">
+        <p class="text-uppercase m-0">RGB: 254, 251, 204<br>HEX: #FEFBCC<br>CMYK: 1, 1, 20, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 rounded" style="background-color: #FDF799;">
+        <p class="text-uppercase m-0">RGB: 253, 247, 153<br>HEX: #FDF799<br>CMYK: 1, 1, 40, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #FCF366;">
+        <p class="text-uppercase m-0">RGB: 252, 243, 102<br>HEX: #FCF366<br>CMYK: 2, 1, 60, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #FBEF33;">
+        <p class="text-uppercase m-0">RGB: 251, 239, 51<br>HEX: #FBEF33<br>CMYK: 2, 1, 80, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #FAEB00;">
+        <p class="text-uppercase m-0">RGB: 250, 235, 0<br>HEX: #FAEB00<br>CMYK: 3, 1, 100, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <div class="p-2 text-white rounded" style="background-color: #BBB000;">
+        <p class="text-uppercase m-0">RGB: 187, 176, 0<br>HEX: #BBB000<br>CMYK: 2, 1, 75, 25</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 id="map-colors">Map colors</h3>
+
+  <h4>Polygons</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <p>Countries/land</p>
+      <div class="p-2 text-white rounded" style="background-color: #E2E7EB;">
+        <p class="text-uppercase m-0">RGB: 226, 231, 235<br>HEX: #E2E7EB<br>CMYK: 10, 4, 4, 5</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <p>Featured country</p>
+      <div class="p-2 rounded" style="background-color: #FFFFFF;">
+        <p class="text-uppercase m-0">RGB: 255, 255, 255<br>HEX: #FFFFFF<br>CMYK: 0, 0, 0, 0</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <p>Water</p>
+      <div class="p-2 rounded" style="background-color: #B3D8F0;">
+        <p class="text-uppercase m-0">RGB: HEX: #B3D8F0<br>HEX: #B3D8F0<br>CMYK: 33, 6, 2, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>Lines</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <p>Boundaries</p>
+      <div class="p-2 text-white rounded" style="background-color: #93A3AB;">
+        <p class="text-uppercase m-0">RGB: 147, 163, 171<br>HEX: #E2E7EB<br>CMYK: 30, 11, 11, 30</p>
+      </div>
+    </div>
+    <div class="col-md-2 border">
+      <p>Roads</p>
+      <div class="p-2 rounded" style="background-color: #F9B7BF;">
+        <p class="text-uppercase m-0">RGB: 249, 183, 191<br>HEX: #F9B7BF<br>CMYK: 0, 35, 21, 0</p>
+      </div>
+    </div>
+  </div>
+
+  <h4>Points</h4>
+  <div class="row">
+    <div class="col-md-2 border">
+      <p>Cities</p>
+      <div class="p-2 text-white rounded" style="background-color: #000000;">
+        <p class="text-uppercase m-0">RGB: 0, 0, 0<br>HEX: #000000<br>CMYK: 0, 0, 0, 100</p>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary btn-lg"><a href="#">Download color palette</a></button>
+</section>
+
+<section>
+  <h2 id="layout">Layout</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec molestie metus. Nunc nec odio tempus, laoreet risus id, faucibus libero. Cras consectetur, justo non scelerisque malesuada, neque ipsum cursus metus, non commodo libero ex et ligula. Duis tincidunt ullamcorper sapien, ut tempus nisl imperdiet a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dictum justo id rhoncus fringilla. Vivamus eget egestas massa.</p>
+</section>
 
 {% endblock %}

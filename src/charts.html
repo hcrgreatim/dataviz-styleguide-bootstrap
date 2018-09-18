@@ -16,7 +16,7 @@
 
 <body>
 
-    <div id="header">
+  <div id="header">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container menu top_container">
 			<div class="row">
@@ -70,216 +70,218 @@
 			</div>
 		</div>
 
-	</nav></div>
+	</nav>
+</div>
 
-	<div class="row row-primary-nav-search hide-search">
-		<div class="col-md-12" id="primary-nav-search-wrapper">
-			<form action="/en/search" method="get" class="navbar-form" role="search">
-				<div class="form-group">
-					<div class="input-group">
-						<input type="text" class="form-control search" placeholder="Search..." name="any_OR_geokeyword">
-						<input type="submit" class="input-group-addon" value="search">
-					</div>
+<div class="row row-primary-nav-search hide-search">
+	<div class="col-md-12" id="primary-nav-search-wrapper">
+		<form action="/en/search" method="get" class="navbar-form" role="search">
+			<div class="form-group">
+				<div class="input-group">
+					<input type="text" class="form-control search" placeholder="Search..." name="any_OR_geokeyword">
+					<input type="submit" class="input-group-addon" value="search">
 				</div>
-			</form>
-			<a href="#_" title="Close search" class="icon-close" onclick="closePrimarySearch(event);">Close search</a>
-		</div>
+			</div>
+		</form>
+		<a href="#_" title="Close search" class="icon-close" onclick="closePrimarySearch(event);">Close search</a>
 	</div>
+</div>
 
-    <div class="container container-margin-bottom">
 
-        <div class="js-toc">
-            <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+  <div class="container container-margin-bottom">
+
+    <div class="js-toc">
+        <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+    </div>
+
+    <div class="row">
+
+        <!-- sidebar table of contents -->
+        <div class="col-sm-3">
+
         </div>
 
-        <div class="row">
+        <!-- main content area -->
+        <div class="col-sm-9 js-toc-content">
+         
+<section>
+  <h2 id="text-styles">Text styles</h2>
 
-            <!-- sidebar table of contents -->
-            <div class="col-sm-3">
+  <p>UNHCR main fonts of choice are <a href="https://typekit.com/fonts/proxima-nova">Proxima Nova</a>, <a href="https://fonts.google.com/specimen/Lato">Lato</a> and Arial. Following the open-source aspect of this guideline we will
+  use and recommend Lato throughout the different templates and examples.</p>
 
-            </div>
+  <p>Find here our recommendations for a clear chart typography. Keep in mind every visualisation has different constrains so there might be a need to change font weight and size.</p>
 
-            <!-- main content area -->
-            <div class="col-sm-9 js-toc-content">
-             
+  <p>Even if we will recommend <a href="https://fonts.google.com/specimen/Lato">Lato</a> please feel free to exchange it with <a href="https://typekit.com/fonts/proxima-nova">Proxima Nova</a> (should be the font of choice for high
+  level publication) if you have the license and font on your computer (available through <a href="https://typekit.com">Adobe Typekit</a>), or with Arial if it is
+  the only font, of the three recommended, available on your computer.</p>
 
-<h2 id="charts">Charts</h2>
+  <p><a href="https://fonts.google.com/specimen/Lato">Lato</a> can be downloaded or embedded into web projects from <a href="https://fonts.google.com">Google Fonts</a>.</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col" class="text-uppercase">Style</th>
+        <th scope="col"><span class="text-uppercase">Typeface</span> print/web</th>
+        <th scope="col"><span class="text-uppercase">Size</span> print/web</th>
+        <th scope="col"><span class="text-uppercase">Colour</span> print/web</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-size: 12px; font-weight: 300;">Figure Number</td>
+        <td>Lato light/300</td>
+        <td>10/12px</td>
+        <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
+      </tr>
+      <tr>
+        <td style="color: rgb(0,114,188); font-size: 18px; font-weight: 700;">Title</td>
+        <td>Lato bold/700</td>
+        <td>10/18px</td>
+        <td>CMYK: 99 50 0 0/rgb(0,114,188)</td>
+      </tr>
+      <tr>
+        <td style="color: rgb(0,114,188); font-size: 18px; font-weight: 300;">Title Date/Unit</td>
+        <td>Lato light/300</td>
+        <td>10/18px</td>
+        <td>CMYK: 99 50 0 0/rgb(0,114,188)</td>
+      </tr>
+      <tr>
+        <td style="font-size: 14px;">Subtitle</td>
+        <td>Lato regular/400</td>
+        <td>9/14px</td>
+        <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
+      </tr>
+      <tr>
+        <td style="color: rgb(102,102,102); font-size: 12px;">X & Y Axis Title</td>
+        <td>Lato regular/400</td>
+        <td>8/12px</td>
+        <td>CMYK: 0 0 0 60/rgb(102,102,102)</td>
+      </tr>
+      <tr>
+        <td style="font-size: 12px;">X & Y Axis Labels</td>
+        <td>Lato regular/400</td>
+        <td>9/12px</td>
+        <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
+      </tr>
+      <tr>
+        <td style="font-size: 12px;">Data Labels</td>
+        <td>Lato regular/400</td>
+        <td>8/12px</td>
+        <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
+      </tr>
+      <tr>
+        <td style="font-size: 12px; font-weight: 700;">Data highlight</td>
+        <td>Lato bold/700</td>
+        <td>9/12px</td>
+        <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
+      </tr>
+      <tr>
+        <td style="font-size: 12px;">Legend Items</td>
+        <td>Lato regular/400</td>
+        <td>9/12px</td>
+        <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
+      </tr>
+      <tr>
+        <td style="color: rgb(153,153,153); font-size: 11px;">Sources</td>
+        <td>Lato regular/400</td>
+        <td>8/11px</td>
+        <td>CMYK: 0 0 0 60/rgb(153,153,153)</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 
-<h3 id="text-styles">Text Styles</h3>
+<section>
+  <h2 id="basic-structure">Basic structure</h2>
 
-<p>UNHCR main fonts of choice are <a href="https://typekit.com/fonts/proxima-nova">Proxima Nova</a>, <a href="https://fonts.google.com/specimen/Lato">Lato</a> and Arial. Following the open-source aspect of this guideline we will
-use and recommend Lato throughout the different templates and examples.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec molestie metus. Nunc nec odio tempus, laoreet risus id, faucibus libero. Cras consectetur, justo non scelerisque malesuada, neque ipsum cursus metus, non commodo libero ex et ligula. Duis tincidunt ullamcorper sapien, ut tempus nisl imperdiet a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dictum justo id rhoncus fringilla. Vivamus eget egestas massa.</p>
 
-<p>Find here our recommendations for a clear chart typography. Keep in mind every visualisation has different constrains so there might be a need to change font weight and size.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec molestie metus. Nunc nec odio tempus, laoreet risus id, faucibus libero. Cras consectetur, justo non scelerisque malesuada, neque ipsum cursus metus, non commodo libero ex et ligula. Duis tincidunt ullamcorper sapien, ut tempus nisl imperdiet a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dictum justo id rhoncus fringilla. Vivamus eget egestas massa.</p>
 
-<p>Even if we will recommend <a href="https://fonts.google.com/specimen/Lato">Lato</a> please feel free to exchange it with <a href="https://typekit.com/fonts/proxima-nova">Proxima Nova</a> (should be the font of choice for high
-level publication) if you have the license and font on your computer (available through <a href="https://typekit.com">Adobe Typekit</a>), or with Arial if it is
-the only font, of the three recommended, available on your computer.</p>
+  <h4>For print</h4>
+  <img src="/assets/images/basic-elements-print.svg" alt="Basic chart layout for print">
+  <h4>For web</h4>
+  <img src="/assets/images/basic-elements-web.svg" alt="Basic chart layout for web">
+</section>
 
-<p><a href="https://fonts.google.com/specimen/Lato">Lato</a> can be downloaded or embedded into web projects from <a href="https://fonts.google.com">Google Fonts</a>.</p>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col" class="text-uppercase">Style</th>
-      <th scope="col"><span class="text-uppercase">Typeface</span> print/web</th>
-      <th scope="col"><span class="text-uppercase">Size</span> print/web</th>
-      <th scope="col"><span class="text-uppercase">Colour</span> print/web</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="font-size: 12px; font-weight: 300;">Figure Number</td>
-      <td>Lato light/300</td>
-      <td>10/12px</td>
-      <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
-    </tr>
-    <tr>
-      <td style="color: rgb(0,114,188); font-size: 18px; font-weight: 700;">Title</td>
-      <td>Lato bold/700</td>
-      <td>10/18px</td>
-      <td>CMYK: 99 50 0 0/rgb(0,114,188)</td>
-    </tr>
-    <tr>
-      <td style="color: rgb(0,114,188); font-size: 18px; font-weight: 300;">Title Date/Unit</td>
-      <td>Lato light/300</td>
-      <td>10/18px</td>
-      <td>CMYK: 99 50 0 0/rgb(0,114,188)</td>
-    </tr>
-    <tr>
-      <td style="font-size: 14px;">Subtitle</td>
-      <td>Lato regular/400</td>
-      <td>9/14px</td>
-      <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
-    </tr>
-    <tr>
-      <td style="color: rgb(102,102,102); font-size: 12px;">X & Y Axis Title</td>
-      <td>Lato regular/400</td>
-      <td>8/12px</td>
-      <td>CMYK: 0 0 0 60/rgb(102,102,102)</td>
-    </tr>
-    <tr>
-      <td style="font-size: 12px;">X & Y Axis Labels</td>
-      <td>Lato regular/400</td>
-      <td>9/12px</td>
-      <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
-    </tr>
-    <tr>
-      <td style="font-size: 12px;">Data Labels</td>
-      <td>Lato regular/400</td>
-      <td>8/12px</td>
-      <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
-    </tr>
-    <tr>
-      <td style="font-size: 12px; font-weight: 700;">Data highlight</td>
-      <td>Lato bold/700</td>
-      <td>9/12px</td>
-      <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
-    </tr>
-    <tr>
-      <td style="font-size: 12px;">Legend Items</td>
-      <td>Lato regular/400</td>
-      <td>9/12px</td>
-      <td>CMYK: 0 0 0 100/rgb(0,0,0)</td>
-    </tr>
-    <tr>
-      <td style="color: rgb(153,153,153); font-size: 11px;">Sources</td>
-      <td>Lato regular/400</td>
-      <td>8/11px</td>
-      <td>CMYK: 0 0 0 60/rgb(153,153,153)</td>
-    </tr>
-  </tbody>
-</table>
+<section>
+  <h2 id="bar-chart">Bar and column chart</h2>
 
-<h3 id="basic-structure">Basic Structure</h3>
+  <p>The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale. The Bar Chart's discrete data is categorical data.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec molestie metus. Nunc nec odio tempus, laoreet risus id, faucibus libero. Cras consectetur, justo non scelerisque malesuada, neque ipsum cursus metus, non commodo libero ex et ligula. Duis tincidunt ullamcorper sapien, ut tempus nisl imperdiet a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dictum justo id rhoncus fringilla. Vivamus eget egestas massa.</p>
+  <p>As a variation of the Bar Chart, Muti-Set Bar Chart is used when two or more data series are plotted side-by-side and grouped together under categories, all on the same axis.It’s usually to compare grouped variables or categories to other groups with those same variables or category types. The downside of Multi-Set Bar Charts is that they become harder to read the more bars you have in one group.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec molestie metus. Nunc nec odio tempus, laoreet risus id, faucibus libero. Cras consectetur, justo non scelerisque malesuada, neque ipsum cursus metus, non commodo libero ex et ligula. Duis tincidunt ullamcorper sapien, ut tempus nisl imperdiet a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dictum justo id rhoncus fringilla. Vivamus eget egestas massa.</p>
-
-<h4>For print</h4>
-<img src="/assets/images/basic-elements-print.svg" alt="Basic chart layout for print">
-<h4>For web</h4>
-<img src="/assets/images/basic-elements-web.svg" alt="Basic chart layout for web">
-
-<h3 id="bar-chart">Bar & Column Charts</h3>
-
-<p>The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale. The Bar Chart's discrete data is categorical data.</p>
-
-<p>As a variation of the Bar Chart, Muti-Set Bar Chart is used when two or more data series are plotted side-by-side and grouped together under categories, all on the same axis.It’s usually to compare grouped variables or categories to other groups with those same variables or category types. The downside of Multi-Set Bar Charts is that they become harder to read the more bars you have in one group.</p>
-
-<h4 id="bar-chart-best-practices">Best practices</h4>
-<ul>
-  <li><span class="text-uppercase">Use consistent colors.</span> Use ONE color for bar chart. A specific bar can be highlighted with a different shade.</li>
-  <li><span class="text-uppercase">Always start at the 0 baseline.</span> Starting at a value above zero truncates the bars and doesn’t accurately reﬂect the full value.</li>
-  <li><span class="text-uppercase">Use horizontal labels</span> to improve readability.</li>
-  <li><span class="text-uppercase">Order data appropriately.</span> Order categories alphabetically, sequentially, or by value.</li>
-  <li>The width of the space between the bars should be about half of width of the bars.</li>
-  <li><span class="text-uppercase">Don’t use any shadow or 3D effect</span> on the bars as they contain no information or data.</li>
-  <li>The shading of the bars should move from lightest to darkest when it’s Muti-Set Chart.</li>
-  <li>Keep the negative number on the left side of baseline and positive number on the right side of baseline.</li>
-</ul>
-<h4 id="bar-chart-examples">Examples</h4>
-<h5>Column chart simple</h5>
-<img src="assets/images/bar-chart-example-simple.svg" alt="Simple column chart">
-<h5>Column chart stacked</h5>
-<img src="assets/images/bar-chart-example-stacked.svg" alt="Stacked column chart">
-<h5>Column chart with highlight</h5>
-<img src="assets/images/bar-chart-example-highlight.svg" alt="Simple bar chart with highlight">
-<h5>Bar chart multiple</h5>
-<img src="assets/images/bar-chart-example-multiple.svg" alt="Multiple bar chart">
-<h5>100% Stacked column chart</h5>
-<img src="assets/images/bar-chart-example-stacked100.svg" alt="100% Stacked column chart">
-
-
-<h3 id="line-chart">Line Chart</h3>
-<p>A line chart reveals trends or progress over time and can be used to show many different categories of data. You should use it when you chart a continuous data set.</p>
-
-<p>Line Graphs are used to display quantitative values over a continuous interval or time period. A Line Graph is most frequently used to show trends and analyze how the data has changed over time. The line's journey across the graph can create patterns that reveal trends in a dataset. Unlike a bar chart, the line char does not require a zero baseline.</p>
-
-<p>When grouped with other lines (other data series), individual lines can be compared to one another. However, avoid using more than 3-4 lines per graph, as this makes the chart more cluttered and harder to read. A solution to this is to divide the chart into smaller multiples (have a small Line Graph for each data series)
-</p>
-
-<h4 id="line-chart-best-practices">Best practices</h4>
-
-<ul>
-  <li>Use solid lines only.</li>
-  <li>Use the right weight so the line can stand out against the grid line but also show the twists and turns of the line</li>
-  <li>Don't plot more than 4 lines to avoid visual distractions.</li>
-  <li>Use the right height so the lines take up roughly 2/3 of the y-axis' height.</li>
-  <li>Keep the grid lines thin and the baseline slightly thicker than the rest of the grid lines.</li>
-  <li>Keep it simple and use natural increments</li>
-  <li>Avoid labeling at long distance, try to label the lines directly </li>
-  <li>Use a legend only when space is tight and the lines intersect extensively.</li>
-  <li>The order of the legend should match the ranking of the end points</li>
-  <li>No shadow and 3D</li>
-</ul>
-
-<h3 id="mixed-chart">Mixed Chart</h3>
-
-<p>A dual axis chart allows you to plot data using two y-axes and a shared x-axis. It's used with two data sets, one of which is based on a continuous set of data and another which is better suited to being grouped by category. This should be used to visualize a correlation or the lack thereof between these two data sets.</p>
-
-<h4 id="mixed-chart-best-practices">Best practices</h4>
-<ul>
-  <li>Use the y-axis on the left side for the primary variable because brains are naturally inclined to look left first.
-    <li>Use different graphing styles to illustrate the two data sets, as illustrated above.</li>
-    <li>Choose contrasting colors for the two data sets.</li>
-    <li>Always label the scale clearly to avoid any confusion</li>
-  </ul>
-
-  <h3 id="area-chart">Area Charts</h3>
-
-  <p>Area Graphs are basically Line Graphs but with the area below filled with a certain colour or pattern. Like Line Graphs, Area Graphs are used to display the development of quantitative values over an interval or time period. They are most commonly used to show trends, rather than convey specific values.</p>
-
-  <p>As a variation of Area Graph, Stacked Area Graphs can be used when multiple data series start each point from the point left by the previous data series. They are useful for comparing multiple variables changing over an interval.</p>
-
-  <h4 id="area-chart-best-practices">Best practices</h4>
+  <h4 id="bar-chart-best-practices">Best practices</h4>
   <ul>
-    <li>Use transparent colors so information isn't obscured in the background.</li>
-    <li>Don't display more than four categories to avoid clutter.</li>
-    <li>Organize highly variable data at the top of the chart to make it easy to read.</li>
+    <li><span class="text-uppercase">Use consistent colors.</span> Use ONE color for bar chart. A specific bar can be highlighted with a different shade.</li>
+    <li><span class="text-uppercase">Always start at the 0 baseline.</span> Starting at a value above zero truncates the bars and doesn’t accurately reﬂect the full value.</li>
+    <li><span class="text-uppercase">Use horizontal labels</span> to improve readability.</li>
+    <li><span class="text-uppercase">Order data appropriately.</span> Order categories alphabetically, sequentially, or by value.</li>
+    <li>The width of the space between the bars should be about half of width of the bars.</li>
+    <li><span class="text-uppercase">Don’t use any shadow or 3D effect</span> on the bars as they contain no information or data.</li>
+    <li>The shading of the bars should move from lightest to darkest when it’s Muti-Set Chart.</li>
+    <li>Keep the negative number on the left side of baseline and positive number on the right side of baseline.</li>
   </ul>
+  <h4 id="bar-chart-examples">Examples</h4>
+  <h5>Column chart simple</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/bar-chart-example-simple.svg" alt="Simple column chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+  <h5>Column chart with highlight</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/bar-chart-example-highlight.svg" alt="Simple column chart with highlight">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+  <h5>Bar chart with highlight</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/bar-chart-example-horizontal-highlight.svg" alt="Simple bar chart with highlight">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+  <h5>Column chart multiple</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/bar-chart-example-multiple.svg" alt="Multiple column chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+  <h5>Bar chart multiple</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/bar-chart-example-horizontal.svg" alt="Multiple bar chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+</section>
 
-  <h3 id="stacked-bar">Stacked Bar</h3>
+<section>
+  <h2 id="stacked-bar">Stacked chart</h2>
 
   <p>Stacked Bar Graphs display their bars of multiple datasets on top of each other. They are used to show how a larger category is divided into smaller categories and what the relationship of each part has on the total amount.</p>
 
@@ -294,8 +296,108 @@ the only font, of the three recommended, available on your computer.</p>
     <li>Use contrasting colors for greater clarity.</li>
     <li>Make chart scale large enough to view group sizes in relation to one another.</li>
   </ul>
+  <h4 id="bar-chart-examples">Examples</h4>
+  <h5>Stacked column chart</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/bar-chart-example-stacked.svg" alt="Simple column chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+  <h5>100% Stacked column chart</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/bar-chart-example-stacked100.svg" alt="100% Stacked column chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+</section>
 
-  <h3 id="pie">Pie</h3>
+<section>
+  <h2 id="line-chart">Line chart</h2>
+  <p>A line chart reveals trends or progress over time and can be used to show many different categories of data. You should use it when you chart a continuous data set.</p>
+
+  <p>Line Graphs are used to display quantitative values over a continuous interval or time period. A Line Graph is most frequently used to show trends and analyze how the data has changed over time. The line's journey across the graph can create patterns that reveal trends in a dataset. Unlike a bar chart, the line char does not require a zero baseline.</p>
+
+  <p>When grouped with other lines (other data series), individual lines can be compared to one another. However, avoid using more than 3-4 lines per graph, as this makes the chart more cluttered and harder to read. A solution to this is to divide the chart into smaller multiples (have a small Line Graph for each data series)
+  </p>
+
+  <h4 id="line-chart-best-practices">Best practices</h4>
+
+  <ul>
+    <li>Use solid lines only.</li>
+    <li>Use the right weight so the line can stand out against the grid line but also show the twists and turns of the line</li>
+    <li>Don't plot more than 4 lines to avoid visual distractions.</li>
+    <li>Use the right height so the lines take up roughly 2/3 of the y-axis' height.</li>
+    <li>Keep the grid lines thin and the baseline slightly thicker than the rest of the grid lines.</li>
+    <li>Keep it simple and use natural increments</li>
+    <li>Avoid labeling at long distance, try to label the lines directly </li>
+    <li>Use a legend only when space is tight and the lines intersect extensively.</li>
+    <li>The order of the legend should match the ranking of the end points</li>
+    <li>No shadow and 3D</li>
+  </ul>
+  <h4>Examples</h4>
+  <h5>Line chart</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/line-chart-example.svg" alt="Simple line chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+  <h5>Multiple lines chart</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/line-chart-multiple.svg" alt="Multiple line chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 id="mixed-chart">Mixed chart</h2>
+
+  <p>A dual axis chart allows you to plot data using two y-axes and a shared x-axis. It's used with two data sets, one of which is based on a continuous set of data and another which is better suited to being grouped by category. This should be used to visualize a correlation or the lack thereof between these two data sets.</p>
+
+  <h4 id="mixed-chart-best-practices">Best practices</h4>
+  <ul>
+    <li>Use the y-axis on the left side for the primary variable because brains are naturally inclined to look left first.
+    <li>Use different graphing styles to illustrate the two data sets, as illustrated above.</li>
+    <li>Choose contrasting colors for the two data sets.</li>
+    <li>Always label the scale clearly to avoid any confusion</li>
+  </ul>
+
+  <h4>Examples</h4>
+  <h5>Mixed chart</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/mixed-chart.svg" alt="Simple line chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 id="pie">Pie chart</h2>
 
   <p>A pie chart shows a static number and composition of categories. A pie chart represents numbers in percentages, and the total sum of all segments needs to equal 100%. Pie Charts are ideal for giving the reader a quick idea of the proportional distribution of the data.</p>
 
@@ -312,14 +414,59 @@ the only font, of the three recommended, available on your computer.</p>
     <li>No shadow and 3D</li>
     <li>Keep the shading simple, highlight the important slice with different shading if needed.</li>
   </ul>
+</section>
+
+<section>
+  <h2 id="area-chart">Area chart</h2>
+
+  <p>Area Graphs are basically Line Graphs but with the area below filled with a certain colour or pattern. Like Line Graphs, Area Graphs are used to display the development of quantitative values over an interval or time period. They are most commonly used to show trends, rather than convey specific values.</p>
+
+  <p>As a variation of Area Graph, Stacked Area Graphs can be used when multiple data series start each point from the point left by the previous data series. They are useful for comparing multiple variables changing over an interval.</p>
+
+  <h4 id="area-chart-best-practices">Best practices</h4>
+  <ul>
+    <li>Use transparent colors so information isn't obscured in the background.</li>
+    <li>Don't display more than four categories to avoid clutter.</li>
+    <li>Organize highly variable data at the top of the chart to make it easy to read.</li>
+  </ul>
+  <h4>Examples</h4>
+  <h5>Area chart</h5>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="assets/images/area-chart.svg" alt="Simple area chart">
+    </div>
+    <div class="col-md-5">
+      <p>Embed code</p>
+      <pre><code>&lt;script&gt;Sample script here...&lt;/script&gt;</code></pre>
+      <p>Copy the snippet above into your HTML code to embed the visualization</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 id="bubble-chart">Bubble chart</h2>
+</section>
+
+<section>
+  <h2 id="radar-chart">Radar chart</h2>
+</section>
+
+<section>
+  <h2 id="sankey">Sankey</h2>
+</section>
+
+<section>
+  <h2 id="treemap">Treemap</h2>
+</section>
+
+<section>
+  <h2 id="streamgraph">Stream graph</h2>
+</section>
 
 
-
-
-  
-           </div>
        </div>
-
+       
+   </div>
 
  </div>
 
@@ -340,7 +487,7 @@ the only font, of the three recommended, available on your computer.</p>
       // Where to grab the headings to build the table of contents.
       contentSelector: '.js-toc-content',
       // Which headings to grab inside of the contentSelector element.
-      headingSelector: 'h2, h3, h4',
+      headingSelector: 'h2, h3',
   });
 </script>
 

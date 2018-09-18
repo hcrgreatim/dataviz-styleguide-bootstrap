@@ -16,27 +16,27 @@
 
 <body>
 
-    {% include 'header.html' %}
+  {% include 'header.html' %}
 
-    <div class="container container-margin-bottom">
+  <div class="container container-margin-bottom">
 
-        <div class="js-toc">
-            <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+    <div class="js-toc">
+        <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+    </div>
+
+    <div class="row">
+
+        <!-- sidebar table of contents -->
+        <div class="col-sm-3">
+
         </div>
 
-        <div class="row">
-
-            <!-- sidebar table of contents -->
-            <div class="col-sm-3">
-
-            </div>
-
-            <!-- main content area -->
-            <div class="col-sm-9 js-toc-content">
-             {% block content %}{% endblock %}
-           </div>
+        <!-- main content area -->
+        <div class="col-sm-9 js-toc-content">
+         {% block content %}{% endblock %}
        </div>
-
+       
+   </div>
 
  </div>
 
@@ -57,7 +57,7 @@
       // Where to grab the headings to build the table of contents.
       contentSelector: '.js-toc-content',
       // Which headings to grab inside of the contentSelector element.
-      headingSelector: 'h2, h3, h4',
+      headingSelector: 'h2, h3',
   });
 </script>
 
