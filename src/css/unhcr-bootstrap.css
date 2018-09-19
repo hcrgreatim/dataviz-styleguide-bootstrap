@@ -1,4 +1,130 @@
 @charset "UTF-8";
+.blue100-bg {
+  background-color: #cce3f2; }
+
+.blue200-bg {
+  background-color: #99c7e4; }
+
+.blue300-bg {
+  background-color: #66aad7; }
+
+.blue400-bg {
+  background-color: #338ec9; }
+
+.blue500-bg {
+  background-color: #0072bc; }
+
+.blue600-bg {
+  background-color: #00568d; }
+
+.grey100-bg {
+  background-color: #e5e5e5; }
+
+.grey200-bg {
+  background-color: #ccc; }
+
+.grey300-bg {
+  background-color: #999; }
+
+.grey400-bg {
+  background-color: #666; }
+
+.grey500-bg {
+  background-color: #333; }
+
+.grey600-bg {
+  background-color: #000; }
+
+.dark-blue100-bg {
+  background-color: #d1d7df; }
+
+.dark-blue200-bg {
+  background-color: #a3afbf; }
+
+.dark-blue300-bg {
+  background-color: #74879f; }
+
+.dark-blue400-bg {
+  background-color: #465f7f; }
+
+.dark-blue500-bg {
+  background-color: #18375f; }
+
+.dark-blue600-bg {
+  background-color: #122947; }
+
+.green100-bg {
+  background-color: #ccf0ea; }
+
+.green200-bg {
+  background-color: #99e1d6; }
+
+.green300-bg {
+  background-color: #66d1c1; }
+
+.green400-bg {
+  background-color: #33c2ad; }
+
+.green500-bg {
+  background-color: #00b398; }
+
+.green600-bg {
+  background-color: #00786c; }
+
+.red100-bg {
+  background-color: #fcdbdf; }
+
+.red200-bg {
+  background-color: #f9b7bf; }
+
+.red300-bg {
+  background-color: #f592a0; }
+
+.red400-bg {
+  background-color: #f26e80; }
+
+.red500-bg {
+  background-color: #ef4a60; }
+
+.red600-bg {
+  background-color: #b33848; }
+
+.golden100-bg {
+  background-color: #fdf3cd; }
+
+.golden200-bg {
+  background-color: #fbe79b; }
+
+.golden300-bg {
+  background-color: #f9da69; }
+
+.golden400-bg {
+  background-color: #f7ce37; }
+
+.golden500-bg {
+  background-color: #f5c205; }
+
+.golden600-bg {
+  background-color: #b89204; }
+
+.yellow100-bg {
+  background-color: #fefbcc; }
+
+.yellow200-bg {
+  background-color: #fdf799; }
+
+.yellow300-bg {
+  background-color: #fcf366; }
+
+.yellow400-bg {
+  background-color: #fbef33; }
+
+.yellow500-bg {
+  background-color: #faeb00; }
+
+.yellow600-bg {
+  background-color: #bbb000; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -1059,7 +1185,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: #FFF; }
+  background-color: #fff; }
 
 input,
 button,
@@ -1096,7 +1222,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: #FFF;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2057,7 +2183,7 @@ th {
   .table > tbody + tbody {
     border-top: 2px solid #ddd; }
   .table .table {
-    background-color: #FFF; }
+    background-color: #fff; }
 
 .table-condensed > thead > tr > th,
 .table-condensed > thead > tr > td,
@@ -3580,7 +3706,7 @@ tbody.collapse.in {
         border-color: #eeeeee #eeeeee #ddd; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: #FFF;
+      background-color: #fff;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -3638,7 +3764,7 @@ tbody.collapse.in {
     .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus,
     .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #FFF; } }
+      border-bottom-color: #fff; } }
 
 .tab-content > .tab-pane {
   display: none; }
@@ -4319,7 +4445,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: #FFF;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;

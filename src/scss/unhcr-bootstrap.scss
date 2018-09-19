@@ -3,9 +3,239 @@
 // for example
 $unhcr-blue: #0072bc;
 $brand-primary: $unhcr-blue;
-$link-color: $unhcr-blue;
-$body-bg: #FFF;
+
+
+//Blue palette
+$blue100: #cce3f2;
+$blue200: #99c7e4;
+$blue300: #66aad7;
+$blue400: #338ec9;
+$blue500: $unhcr-blue;
+$blue600: #00568d;
+
+//Grey palette
+$grey100: #e5e5e5;
+$grey200: #ccc;
+$grey300: #999;
+$grey400: #666;
+$grey500: #333;
+$grey600: #000;
+
+//dark-blue palette
+$dark-blue100: #d1d7df;
+$dark-blue200: #a3afbf;
+$dark-blue300: #74879f;
+$dark-blue400: #465f7f;
+$dark-blue500: #18375f;
+$dark-blue600: #122947;
+
+//green palette
+$green100: #ccf0ea;
+$green200: #99e1d6;
+$green300: #66d1c1;
+$green400: #33c2ad;
+$green500: #00b398;
+$green600: #00786c;
+
+//red palette
+$red100: #fcdbdf;
+$red200: #f9b7bf;
+$red300: #f592a0;
+$red400: #f26e80;
+$red500: #ef4a60;
+$red600: #b33848;
+
+//golden palette
+$golden100: #fdf3cd;
+$golden200: #fbe79b;
+$golden300: #f9da69;
+$golden400: #f7ce37;
+$golden500: #f5c205;
+$golden600: #b89204;
+
+//yellow palette
+$yellow100: #fefbcc;
+$yellow200: #fdf799;
+$yellow300: #fcf366;
+$yellow400: #fbef33;
+$yellow500: #faeb00;
+$yellow600: #bbb000;
 
 $font-family-sans-serif: "Lato", Arial, sans-serif;
+
+//Blue background-color
+.blue100-bg {
+  background-color: $blue100;
+}
+
+.blue200-bg {
+  background-color: $blue200;
+}
+
+.blue300-bg {
+  background-color: $blue300;
+}
+
+.blue400-bg {
+  background-color: $blue400;
+}
+
+.blue500-bg {
+  background-color: $blue500;
+}
+
+.blue600-bg {
+  background-color: $blue600;
+}
+
+//grey background-color
+.grey100-bg {
+  background-color: $grey100;
+}
+
+.grey200-bg {
+  background-color: $grey200;
+}
+
+.grey300-bg {
+  background-color: $grey300;
+}
+
+.grey400-bg {
+  background-color: $grey400;
+}
+
+.grey500-bg {
+  background-color: $grey500;
+}
+
+.grey600-bg {
+  background-color: $grey600;
+}
+
+//dark-blue background-color
+.dark-blue100-bg {
+  background-color: $dark-blue100;
+}
+
+.dark-blue200-bg {
+  background-color: $dark-blue200;
+}
+
+.dark-blue300-bg {
+  background-color: $dark-blue300;
+}
+
+.dark-blue400-bg {
+  background-color: $dark-blue400;
+}
+
+.dark-blue500-bg {
+  background-color: $dark-blue500;
+}
+
+.dark-blue600-bg {
+  background-color: $dark-blue600;
+}
+
+//green background-color
+.green100-bg {
+  background-color: $green100;
+}
+
+.green200-bg {
+  background-color: $green200;
+}
+
+.green300-bg {
+  background-color: $green300;
+}
+
+.green400-bg {
+  background-color: $green400;
+}
+
+.green500-bg {
+  background-color: $green500;
+}
+
+.green600-bg {
+  background-color: $green600;
+}
+
+//red background-color
+.red100-bg {
+  background-color: $red100;
+}
+
+.red200-bg {
+  background-color: $red200;
+}
+
+.red300-bg {
+  background-color: $red300;
+}
+
+.red400-bg {
+  background-color: $red400;
+}
+
+.red500-bg {
+  background-color: $red500;
+}
+
+.red600-bg {
+  background-color: $red600;
+}
+
+//golden background-color
+.golden100-bg {
+  background-color: $golden100;
+}
+
+.golden200-bg {
+  background-color: $golden200;
+}
+
+.golden300-bg {
+  background-color: $golden300;
+}
+
+.golden400-bg {
+  background-color: $golden400;
+}
+
+.golden500-bg {
+  background-color: $golden500;
+}
+
+.golden600-bg {
+  background-color: $golden600;
+}
+
+//yellow background-color
+.yellow100-bg {
+  background-color: $yellow100;
+}
+
+.yellow200-bg {
+  background-color: $yellow200;
+}
+
+.yellow300-bg {
+  background-color: $yellow300;
+}
+
+.yellow400-bg {
+  background-color: $yellow400;
+}
+
+.yellow500-bg {
+  background-color: $yellow500;
+}
+
+.yellow600-bg {
+  background-color: $yellow600;
+}
 
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
