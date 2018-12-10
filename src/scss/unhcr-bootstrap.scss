@@ -281,5 +281,17 @@ $font-family-sans-serif: "Lato", Arial, sans-serif;
   color: #FFF;
 }
 
+.p-2 .color-label {
+  opacity: 0.8 !important;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+  font-size: 10px;
+}
+
+.p-2.text-white .color-label {
+  opacity: 0.8 !important;  
+}
 
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";

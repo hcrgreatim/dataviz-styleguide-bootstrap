@@ -159,6 +159,17 @@
 .text-white {
   color: #FFF; }
 
+.p-2 .color-label {
+  opacity: 0.8 !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 10px; }
+
+.p-2.text-white .color-label {
+  opacity: 0.8 !important; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
