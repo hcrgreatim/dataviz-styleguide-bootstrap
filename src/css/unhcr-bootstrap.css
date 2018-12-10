@@ -142,6 +142,23 @@
 .download-btn a {
   color: #FFF; }
 
+.colors .col-md-2,
+.colors .col-md-4 {
+  padding-left: 1px;
+  padding-right: 1px; }
+
+.p-2 {
+  padding: 3px;
+  font-size: 11px;
+  padding-left: 5px;
+  margin-bottom: 2px; }
+
+.p-2 p {
+  margin: 0px; }
+
+.text-white {
+  color: #FFF; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

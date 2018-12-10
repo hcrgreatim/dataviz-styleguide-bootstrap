@@ -259,4 +259,26 @@ $font-family-sans-serif: "Lato", Arial, sans-serif;
   color: #FFF;
 }
 
+.colors .col-md-2,
+.colors .col-md-4 {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+
+.p-2 {
+  padding: 3px;
+  font-size: 11px;
+  padding-left: 5px;
+  margin-bottom: 2px;
+}
+
+.p-2 p {
+  margin: 0px;
+}
+
+.text-white {
+  color: #FFF;
+}
+
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
