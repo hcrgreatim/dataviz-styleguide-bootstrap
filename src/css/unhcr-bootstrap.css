@@ -125,6 +125,23 @@
 .yellow600-bg {
   background-color: #bbb000; }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+
+.brandbook {
+  position: relative; }
+
+.brandbook .download-btn {
+  position: absolute;
+  bottom: 2px;
+  left: 2px; }
+
+.download-btn a {
+  color: #FFF; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

@@ -1,4 +1,4 @@
-~#header {
+#header {
     /*height: 75px;*/
   height: 20%;
     background: #fff; /*d67878;*/
@@ -8,7 +8,7 @@
 }
 
 #header .top_container {
-  padding-top: 10px;
+    padding-top: 2px;
 }
 
 #header .title{
@@ -17,7 +17,6 @@
   font-weight: 100;
   letter-spacing: .8px;
   /*line-height: 40px;*/
-  padding-left: 10px;
   text-transform: uppercase;
   /*padding-top: 27px;*/
   color: #000000;
@@ -29,15 +28,17 @@
     font-weight: 100;
     letter-spacing: .8px;
     line-height: 20px;
-    padding-left: 10px;
+    padding-left: 15px;
     text-transform: uppercase;
     padding-top: 9px;
 }
 #header .titlesmall>a {
     color: #000000;
+    line-height: 1.5;
+    padding-left: 10px;
 }
 #header .visible-xs{
-  width: 150px;
+
 }
 
 #header .title a {
@@ -50,6 +51,10 @@
 }
 #header .titlesmall span{
   font-weight: bold;
+}
+
+.js-toc {
+  display: none;
 }
 
 #overview-map-container .map-title { /***Homepage***/
@@ -110,20 +115,51 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #222;
-  padding-top: 101px; /* Because of fixed header, start content at 101px+ */
+  padding-top: 51px; /* Because of fixed header, start content at 101px+ */
   /* margin-bottom: 50px; Fixed via sticky footer css */
+}
+
+
+@media all and (max-width: 270px) {
+  #header .titlesmall>a {
+    font-size: 13px;
+    line-height: 2.5;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .unhcr-logo {
+    display: none !important;
+  }
+
+  #header .top_container { 
+  padding: 0px; 
+  }
+
+  #header .titlesmall {
+    padding-left: 0px;
+  }
 }
 
 @media all and (max-width: 887px) {
   body {
-    padding-top: 171px;
+
+  }
+
+  #header .top_container {
+    padding-top: 2px;
   }
 }
 
-@media all and (min-width: 888px) and (max-width: 991px) {
+@media all and (min-width: 768px) {
   body {
-    padding-top: 151px;
+    padding-top: 101px;
   }
+
+  .js-toc {
+    display: block;
+  }
+
 }
 
 h1{
