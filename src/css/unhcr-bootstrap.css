@@ -17,6 +17,9 @@
 .blue600-bg {
   background-color: #00568d; }
 
+.grey000-bg {
+  background-color: #FFF; }
+
 .grey100-bg {
   background-color: #e5e5e5; }
 
@@ -125,6 +128,154 @@
 .yellow600-bg {
   background-color: #bbb000; }
 
+.blue100 {
+  color: #cce3f2; }
+
+.blue200 {
+  color: #99c7e4; }
+
+.blue300 {
+  color: #66aad7; }
+
+.blue400 {
+  color: #338ec9; }
+
+.blue500 {
+  color: #0072bc; }
+
+.blue600 {
+  color: #00568d; }
+
+.grey000 {
+  color: #FFF; }
+
+.grey100 {
+  color: #e5e5e5; }
+
+.grey200 {
+  color: #ccc; }
+
+.grey300 {
+  color: #999; }
+
+.grey400 {
+  color: #666; }
+
+.grey500 {
+  color: #333; }
+
+.grey600 {
+  color: #000; }
+
+.dark-blue100 {
+  color: #d1d7df; }
+
+.dark-blue200 {
+  color: #a3afbf; }
+
+.dark-blue300 {
+  color: #74879f; }
+
+.dark-blue400 {
+  color: #465f7f; }
+
+.dark-blue500 {
+  color: #18375f; }
+
+.dark-blue600 {
+  color: #122947; }
+
+.green100 {
+  color: #ccf0ea; }
+
+.green200 {
+  color: #99e1d6; }
+
+.green300 {
+  color: #66d1c1; }
+
+.green400 {
+  color: #33c2ad; }
+
+.green500 {
+  color: #00b398; }
+
+.green600 {
+  color: #00786c; }
+
+.red100 {
+  color: #fcdbdf; }
+
+.red200 {
+  color: #f9b7bf; }
+
+.red300 {
+  color: #f592a0; }
+
+.red400 {
+  color: #f26e80; }
+
+.red500 {
+  color: #ef4a60; }
+
+.red600 {
+  color: #b33848; }
+
+.golden100 {
+  color: #fdf3cd; }
+
+.golden200 {
+  color: #fbe79b; }
+
+.golden300 {
+  color: #f9da69; }
+
+.golden400 {
+  color: #f7ce37; }
+
+.golden500 {
+  color: #f5c205; }
+
+.golden600 {
+  color: #b89204; }
+
+.yellow100 {
+  color: #fefbcc; }
+
+.yellow200 {
+  color: #fdf799; }
+
+.yellow300 {
+  color: #fcf366; }
+
+.yellow400 {
+  color: #fbef33; }
+
+.yellow500 {
+  color: #faeb00; }
+
+.yellow600 {
+  color: #bbb000; }
+
+.map-countries-bg {
+  background-color: #E2E7EB; }
+
+.map-featured-bg {
+  background-color: #FFFFFF; }
+
+.map-water-bg {
+  background-color: #B3D8F0; }
+
+.map-boundaries {
+  color: #93A3AB; }
+
+.map-boundaries-bg {
+  background-color: #93A3AB; }
+
+.color-class {
+  text-transform: lowercase;
+  font-style: normal; }
+
 .center {
   display: block;
   margin-left: auto;
@@ -169,6 +320,51 @@
 
 .p-2.text-white .color-label {
   opacity: 0.8 !important; }
+
+/* UNHCR TEXT STYLES */
+.unhcr-chart-figure {
+  font-size: 12px;
+  font-weight: 300; }
+
+.unhcr-chart-title {
+  color: #0072bc;
+  font-size: 18px;
+  font-weight: 700; }
+
+.unhcr-chart-title-date {
+  color: #0072bc;
+  font-size: 18px;
+  font-weight: 300; }
+
+.unhcr-chart-subtitle {
+  font-size: 14px;
+  font-weight: 400; }
+
+.unhcr-chart-axis-title {
+  color: #666666;
+  font-size: 12px;
+  font-weight: 400; }
+
+.unhcr-chart-axis-label {
+  font-size: 12px;
+  font-weight: 400; }
+
+.unhcr-chart-data-label {
+  font-size: 12px;
+  font-weight: 400; }
+
+.unhcr-chart-data-highlight {
+  font-size: 12px;
+  font-weight: 700; }
+
+.unhcr-chart-legend-item {
+  font-size: 12px;
+  font-weight: 400; }
+
+.unhcr-chart-sources {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 400; }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -5984,3 +6180,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.row {
+  margin-left: -12px;
+  margin-right: -12px; }

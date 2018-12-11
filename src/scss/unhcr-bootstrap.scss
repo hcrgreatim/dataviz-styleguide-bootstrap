@@ -14,6 +14,7 @@ $blue500: $unhcr-blue;
 $blue600: #00568d;
 
 //Grey palette
+$grey000: #FFF;
 $grey100: #e5e5e5;
 $grey200: #ccc;
 $grey300: #999;
@@ -89,6 +90,10 @@ $font-family-sans-serif: "Lato", Arial, sans-serif;
 }
 
 //grey background-color
+.grey000-bg {
+  background-color: $grey000;
+}
+
 .grey100-bg {
   background-color: $grey100;
 }
@@ -238,6 +243,210 @@ $font-family-sans-serif: "Lato", Arial, sans-serif;
   background-color: $yellow600;
 }
 
+//Blue color
+.blue100 {
+  color: $blue100;
+}
+
+.blue200 {
+  color: $blue200;
+}
+
+.blue300 {
+  color: $blue300;
+}
+
+.blue400 {
+  color: $blue400;
+}
+
+.blue500 {
+  color: $blue500;
+}
+
+.blue600 {
+  color: $blue600;
+}
+
+//grey color
+.grey000 {
+  color: $grey000;
+}
+
+.grey100 {
+  color: $grey100;
+}
+
+.grey200 {
+  color: $grey200;
+}
+
+.grey300 {
+  color: $grey300;
+}
+
+.grey400 {
+  color: $grey400;
+}
+
+.grey500 {
+  color: $grey500;
+}
+
+.grey600 {
+  color: $grey600;
+}
+
+//dark-blue color
+.dark-blue100 {
+  color: $dark-blue100;
+}
+
+.dark-blue200 {
+  color: $dark-blue200;
+}
+
+.dark-blue300 {
+  color: $dark-blue300;
+}
+
+.dark-blue400 {
+  color: $dark-blue400;
+}
+
+.dark-blue500 {
+  color: $dark-blue500;
+}
+
+.dark-blue600 {
+  color: $dark-blue600;
+}
+
+//green color
+.green100 {
+  color: $green100;
+}
+
+.green200 {
+  color: $green200;
+}
+
+.green300 {
+  color: $green300;
+}
+
+.green400 {
+  color: $green400;
+}
+
+.green500 {
+  color: $green500;
+}
+
+.green600 {
+  color: $green600;
+}
+
+//red color
+.red100 {
+  color: $red100;
+}
+
+.red200 {
+  color: $red200;
+}
+
+.red300 {
+  color: $red300;
+}
+
+.red400 {
+  color: $red400;
+}
+
+.red500 {
+  color: $red500;
+}
+
+.red600 {
+  color: $red600;
+}
+
+//golden color
+.golden100 {
+  color: $golden100;
+}
+
+.golden200 {
+  color: $golden200;
+}
+
+.golden300 {
+  color: $golden300;
+}
+
+.golden400 {
+  color: $golden400;
+}
+
+.golden500 {
+  color: $golden500;
+}
+
+.golden600 {
+  color: $golden600;
+}
+
+//yellow color
+.yellow100 {
+  color: $yellow100;
+}
+
+.yellow200 {
+  color: $yellow200;
+}
+
+.yellow300 {
+  color: $yellow300;
+}
+
+.yellow400 {
+  color: $yellow400;
+}
+
+.yellow500 {
+  color: $yellow500;
+}
+
+.yellow600 {
+  color: $yellow600;
+}
+
+.map-countries-bg {
+  background-color: #E2E7EB;
+}
+
+.map-featured-bg {
+  background-color: #FFFFFF;
+}
+
+.map-water-bg {
+  background-color: #B3D8F0;
+}
+
+.map-boundaries {
+    color: #93A3AB;
+}
+
+.map-boundaries-bg {
+    background-color: #93A3AB;
+}
+
+.color-class {
+  text-transform: lowercase;
+  font-style: normal;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -294,4 +503,69 @@ $font-family-sans-serif: "Lato", Arial, sans-serif;
   opacity: 0.8 !important;  
 }
 
+/* UNHCR TEXT STYLES */
+
+.unhcr-chart-class {
+
+}
+
+.unhcr-chart-figure {
+  font-size: 12px; 
+  font-weight: 300;
+}
+
+.unhcr-chart-title {
+  color: rgb(0,114,188); 
+  font-size: 18px; 
+  font-weight: 700;
+}
+
+.unhcr-chart-title-date {
+  color: rgb(0,114,188); 
+  font-size: 18px; 
+  font-weight: 300;
+}
+
+.unhcr-chart-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.unhcr-chart-axis-title {
+  color: rgb(102,102,102); 
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.unhcr-chart-axis-label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.unhcr-chart-data-label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.unhcr-chart-data-highlight {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.unhcr-chart-legend-item {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.unhcr-chart-sources {
+  color: rgb(153,153,153); 
+  font-size: 11px;
+  font-weight: 400;
+}
+
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.row {
+  margin-left: -12px;
+  margin-right: -12px;
+}
