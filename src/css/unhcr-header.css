@@ -146,7 +146,7 @@ font-size:12px;
 
 @media all and (min-width: 768px) {
   body {
-    padding-top: 101px;
+    padding-top: 98px;
   }
 
   .js-toc {
@@ -172,6 +172,11 @@ line-height: 36px;
 /*margin-bottom: 15px;*/
 margin-bottom: 10px
 }
+
+h4 {
+  font-weight: bold;
+}
+
 p {
 margin: 0 0 10px;
 
