@@ -269,12 +269,14 @@
 .map-boundaries {
   color: #93A3AB; }
 
-.map-boundaries-bg {
-  background-color: #93A3AB; }
+.map-boundary {
+  background-color: #93A3AB;
+  color: #93A3AB; }
 
 .color-class {
   text-transform: lowercase;
-  font-style: normal; }
+  font-style: normal;
+  font-weight: bold; }
 
 .center {
   display: block;
@@ -283,12 +285,15 @@
   width: 50%; }
 
 .brandbook {
-  position: relative; }
+  position: relative;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-top: 10px; }
 
 .brandbook .download-btn {
-  position: absolute;
-  bottom: 2px;
-  left: 2px; }
+  position: relative;
+  bottom: -5px;
+  left: 0px; }
 
 .download-btn a {
   color: #FFF; }
@@ -6184,3 +6189,8 @@ button.close {
 .row {
   margin-left: -12px;
   margin-right: -12px; }
+
+h2 {
+  border-bottom: 1px solid #E7E7E7;
+  line-height: 45px;
+  margin-bottom: 15px; }
