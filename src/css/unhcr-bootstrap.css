@@ -6184,14 +6184,3 @@ button.close {
 .row {
   margin-left: -12px;
   margin-right: -12px; }
-
-
-  body {
-  font-family: "Proxima Nova", "Lato", Arial;/*"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-  font-size: 16px;
-  line-height: 1.5;
-  color: #222;
-  padding-top: 51px; /* Because of fixed header, start content at 101px+ */
-  /* margin-bottom: 50px; Fixed via sticky footer css */
-}
-
