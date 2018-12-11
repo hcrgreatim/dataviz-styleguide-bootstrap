@@ -110,14 +110,7 @@ padding-right:25%;
 font-size:12px;
 }
 
-body {
-  font-family: Lato, sans-serif;/*"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-  font-size: 16px;
-  line-height: 1.5;
-  color: #222;
-  padding-top: 51px; /* Because of fixed header, start content at 101px+ */
-  /* margin-bottom: 50px; Fixed via sticky footer css */
-}
+
 
 
 @media all and (max-width: 270px) {
