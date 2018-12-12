@@ -6194,4 +6194,20 @@ button.close {
 h2 {
   border-bottom: 1px solid #E7E7E7;
   line-height: 45px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px; }
+
+h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333; }
+
+h5 {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  text-transform: uppercase; }
