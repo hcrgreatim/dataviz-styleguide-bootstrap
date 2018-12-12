@@ -273,7 +273,7 @@
   background-color: #93A3AB;
   color: #93A3AB; }
 
-.color-class {
+.colour-class {
   text-transform: lowercase;
   font-style: normal;
   font-weight: bold; }
@@ -298,9 +298,9 @@
 .download-btn a {
   color: #FFF; }
 
-.colors .col-md-2,
-.colors .col-md-3,
-.colors .col-md-4 {
+.colours .col-md-2,
+.colours .col-md-3,
+.colours .col-md-4 {
   padding-left: 1px;
   padding-right: 1px; }
 
@@ -316,7 +316,7 @@
 .text-white {
   color: #FFF; }
 
-.p-2 .color-label {
+.p-2 .colour-label {
   opacity: 0.8 !important;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -324,7 +324,7 @@
   user-select: none;
   font-size: 10px; }
 
-.p-2.text-white .color-label {
+.p-2.text-white .colour-label {
   opacity: 0.8 !important; }
 
 /* UNHCR TEXT STYLES */
