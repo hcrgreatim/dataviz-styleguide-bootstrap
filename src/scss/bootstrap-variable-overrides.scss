@@ -1,0 +1,67 @@
+// Bootstrap overrides
+//
+// Copy variables from `node_modules/bootstrap/scss/_variables.scss` to this file to override default values
+// without modifying source files.
+
+$blue: #0072bc;
+$unhcr-blue: $blue;
+$brand-primary: $unhcr-blue;
+
+//Blue palette
+$blue100: #cce3f2;
+$blue200: #99c7e4;
+$blue300: #66aad7;
+$blue400: #338ec9;
+$blue500: $unhcr-blue;
+$blue600: #00568d;
+
+//Grey palette
+$grey000: #FFF;
+$grey100: #e5e5e5;
+$grey200: #ccc;
+$grey300: #999;
+$grey400: #666;
+$grey500: #333;
+$grey600: #000;
+
+//dark-blue palette
+$dark-blue100: #d1d7df;
+$dark-blue200: #a3afbf;
+$dark-blue300: #74879f;
+$dark-blue400: #465f7f;
+$dark-blue500: #18375f;
+$dark-blue600: #122947;
+
+//green palette
+$green100: #ccf0ea;
+$green200: #99e1d6;
+$green300: #66d1c1;
+$green400: #33c2ad;
+$green500: #00b398;
+$green600: #00786c;
+
+//red palette
+$red100: #fcdbdf;
+$red200: #f9b7bf;
+$red300: #f592a0;
+$red400: #f26e80;
+$red500: #ef4a60;
+$red600: #b33848;
+
+//golden palette
+$golden100: #fdf3cd;
+$golden200: #fbe79b;
+$golden300: #f9da69;
+$golden400: #f7ce37;
+$golden500: #f5c205;
+$golden600: #b89204;
+
+//yellow palette
+$yellow100: #fefbcc;
+$yellow200: #fdf799;
+$yellow300: #fcf366;
+$yellow400: #fbef33;
+$yellow500: #faeb00;
+$yellow600: #bbb000;
+
+$font-family-sans-serif: "Proxima Nova", "Lato", Arial, sans-serif;

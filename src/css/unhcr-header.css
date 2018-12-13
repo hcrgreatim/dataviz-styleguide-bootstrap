@@ -1,26 +1,81 @@
+
 #header {
-    /*height: 75px;*/
-  height: 20%;
-    background: #fff; /*d67878;*/
-    /*color: #feffff;
-  margin-left:20%;
-  margin-right:20%;*/
+  padding: 13px;
 }
 
-#header .top_container {
-    padding-top: 2px;
+#header-top {
+  width: 100%;
 }
 
-#header .title{
-  float: left;
-  font-size: 36px;
-  font-weight: 100;
-  letter-spacing: .8px;
-  /*line-height: 40px;*/
+
+#header #header-nav {
+  width: 100%;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    margin-top: 10px;
+    padding: 5px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+    
+}
+
+
+#header .navbar-brand {
+  display: inline;
+}
+
+#header .header-title{
+  font-size: 30px;
   text-transform: uppercase;
-  /*padding-top: 27px;*/
   color: #000000;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: 12px;
 }
+
+#header .unhcr-logo {
+  height: 48px;
+}
+
+#header #header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#header #header-nav li {
+  float: left;
+}
+
+#header #header-nav li a {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #707070;
+  border-bottom: 5px solid #FFF;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#header #header-nav #header-nav-home a {
+
+}
+
+#header #header-nav li.active a {
+  text-decoration: none;
+  color: #000;
+}
+
+#header #header-nav li a:hover {
+  border-bottom: 5px solid #BFBFBF;
+  text-decoration: none;
+}
+
 
 #header .titlesmall {/*, .titlesmall>a {*/
     /*float: left;*/
@@ -146,7 +201,7 @@ font-size:12px;
 
 @media all and (min-width: 768px) {
   body {
-    padding-top: 98px;
+
   }
 
   .js-toc {
@@ -851,15 +906,12 @@ margin-right:0px;
 .open .dropdown-toggle.btn-primary
 {
     color: #fff;
-    background-color: #0072BC;
-    border-color: #0072BC;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active{
     color: #fff;
-    background-color: #000;
   border-color:#fff;
 }
 
@@ -2101,4 +2153,10 @@ ul.nav-flex-footer li {
 
 .form-signin .btn {
     padding: 10px 20px;
+}
+
+.brandbook img, 
+.svgimage {
+  width: 100%;
+  min-height: 270px;
 }

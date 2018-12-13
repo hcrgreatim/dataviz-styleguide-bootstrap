@@ -7,27 +7,23 @@
 
     <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/unhcr-header.css">
+    
     <link rel="stylesheet" href="css/unhcr-bootstrap.css">
     <link rel="stylesheet" href="css/tocbot.css">
-    <link rel="stylesheet" href="css/unhcr-header.css">
 
 </head>
 
 <body>
 
-  <div id="header">
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container menu top_container">
-			<div class="row">
-				<div class="col-md-12">
+  	<nav id="header" class="navbar navbar-default sticky-top">
+		<div id="header-top">
 
-					<div class="navbar-brand">
-						<img class="unhcr-logo hidden-xs" src="assets/images/unhcr-logo.png">
-						<img class="unhcr-logo visible-xs" height="45px" style="padding-top: 3px" src="assets/images/unhcr-logo-small.png">
-					</div>
-
-					<div class="title hidden-xs"><a href="#"><span>DATAVIZ</span> Styleguide</a></div>
-					<div class="titlesmall visible-xs"><a href="/en/search" font-size="6"><span>DATAVIZ</span> Styleguide</a></div>
+			  <div class="navbar-brand container" href="#">
+				<img class="unhcr-logo hidden-xs" src="assets/images/unhcr-logo.png">
+				<!-- <img class="unhcr-logo visible-xs" height="45px" style="padding-top: 3px" src="assets/images/unhcr-logo-small.png"> -->
+				<div class="header-title"><b>DATAVIZ</b> Styleguide</div>
+			  </div>
 
 <!-- 					<div class="actions">
 						<ul>
@@ -45,32 +41,30 @@
 								<li><a href="http://popstats.unhcr.org/en/overview" title="Refworld">Population Statistics</a></li>
 							</ul>
 						</nav>
-					</div> -->
 
-				</div>
-			</div>
+						</div> -->
 		</div>
 
-		<div class="navbar-wrapper">
-			<div class="container menu">
-				<div class="row row-primary-nav">
-					<div class="col-md-12">
-						<div class="collapse navbar-collapse navHeaderCollapse" id="primary-nav">
-							<ul class="nav navbar-nav navbar-left">
-								<li ><a href="styles.html">STYLES</a></li>
-								<li ><a href="charts.html">Charts</a></li>
-								<li class="active"><a href="maps.html">Maps</a></li>
-								<li ><a href="webcomponents.html">Web Components</a></li>
-								<li ><a href="resources.html">resources</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<div id="header-nav">
+		    <ul id="header-nav-ul">
+				<li id="header-nav-home" ><a href="home.html">Home</a></li>
+				<li ><a href="styles.html">STYLES</a></li>
+				<li ><a href="charts.html">Charts</a></li>
+				<li class="active"><a href="maps.html">Maps</a></li>
+				<li ><a href="webcomponents.html">Web Components</a></li>
+				<li ><a href="resources.html">resources</a></li>
+		    </ul>
+		  </div>
+
+
+
+
+
+<!-- 										<ul class="">
+
+							</ul> -->
 
 	</nav>
-</div>
 
 <div class="row row-primary-nav-search hide-search">
 	<div class="col-md-12" id="primary-nav-search-wrapper">
@@ -113,21 +107,26 @@
 
     <div class="row">
     <h3 id="map-colours">Map colours</h3>
+	</div>
+	<div class="row">
     <h4>Polygons</h4>
+	</div>
 
-    <div class="col-md-2 border">
+	<div class="row">
+
+    <div class="col-md-2">
       <p>Countries/land</p>
       <div class="p-2 map-countries-bg">
         <p class="text-uppercase m-0"><span class="colour-label">RGB:</span> 226, 231, 235<br><span class="colour-label">HEX:</span> #E2E7EB<br><span class="colour-label">CMYK:</span> 10, 4, 4, 5<br/><span class="colour-label">CLASS:</span><span class="colour-class"> .map-countries-bg</span></p>
       </div>
     </div>
-    <div class="col-md-2 border">
+    <div class="col-md-2">
       <p>Featured country</p>
       <div class="p-2 map-featured-bg">
         <p class="text-uppercase m-0"><span class="colour-label">RGB:</span> 255, 255, 255<br><span class="colour-label">HEX:</span> #FFFFFF<br><span class="colour-label">CMYK:</span> 0, 0, 0, 0<br/><span class="colour-label">CLASS:</span><span class="colour-class"> .map-featured-bg</span></p>
       </div>
     </div>
-    <div class="col-md-2 border">
+    <div class="col-md-2">
       <p>Water</p>
       <div class="p-2 map-water-bg">
         <p class="text-uppercase m-0"><span class="colour-label">RGB:</span> 179, 216, 240<br><span class="colour-label">HEX:</span> #B3D8F0<br><span class="colour-label">CMYK:</span> 33, 6, 2, 0<br/><span class="colour-label">CLASS:</span><span class="colour-class"> .map-water-bg</span></p>
@@ -137,13 +136,15 @@
 
   <div class="row">
     <h4>Lines</h4>
-    <div class="col-md-2 border">
+	</div>
+	<div class="row">
+    <div class="col-md-2">
       <p>Boundaries</p>
       <div class="p-2 text-white map-boundary">
         <p class="text-uppercase m-0"><span class="colour-label">RGB:</span> 147, 163, 171<br><span class="colour-label">HEX:</span> #E2E7EB<br><span class="colour-label">CMYK:</span> 30, 11, 11, 30<br/><span class="colour-label">CLASS:</span><span class="colour-class"> .map-boundary</span></p>
       </div>
     </div>
-    <div class="col-md-2 border">
+    <div class="col-md-2">
       <p>Roads</p>
       <div class="p-2 red200-bg">
         <p class="text-uppercase m-0"><span class="colour-label">RGB:</span> 249, 183, 191<br><span class="colour-label">HEX:</span> #F9B7BF<br><span class="colour-label">CMYK:</span> 0, 35, 21, 0<br/><span class="colour-label">CLASS:</span><span class="colour-class"> .red200-bg</span></p>
@@ -153,7 +154,9 @@
 
   <div class="row">
     <h4>Points</h4>
-    <div class="col-md-2 border">
+	</div>
+	<div class="row">
+    <div class="col-md-2">
       <p>Cities</p>
       <div class="p-2 text-white grey600-bg">
         <p class="text-uppercase m-0"><span class="colour-label">RGB:</span> 0, 0, 0<br><span class="colour-label">HEX:</span> #000000<br><span class="colour-label">CMYK:</span> 0, 0, 0, 100<br/><span class="colour-label">CLASS:</span><span class="colour-class"> .grey600-bg</span></p>

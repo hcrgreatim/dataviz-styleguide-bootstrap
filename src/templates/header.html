@@ -1,16 +1,11 @@
-<div id="header">
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container menu top_container">
-			<div class="row">
-				<div class="col-md-12">
+	<nav id="header" class="navbar navbar-default sticky-top">
+		<div id="header-top">
 
-					<div class="navbar-brand">
-						<img class="unhcr-logo hidden-xs" src="assets/images/unhcr-logo.png">
-						<img class="unhcr-logo visible-xs" height="45px" style="padding-top: 3px" src="assets/images/unhcr-logo-small.png">
-					</div>
-
-					<div class="title hidden-xs"><a href="#"><span>DATAVIZ</span> Styleguide</a></div>
-					<div class="titlesmall visible-xs"><a href="/en/search" font-size="6"><span>DATAVIZ</span> Styleguide</a></div>
+			  <div class="navbar-brand container" href="#">
+				<img class="unhcr-logo hidden-xs" src="assets/images/unhcr-logo.png">
+				<!-- <img class="unhcr-logo visible-xs" height="45px" style="padding-top: 3px" src="assets/images/unhcr-logo-small.png"> -->
+				<div class="header-title"><b>DATAVIZ</b> Styleguide</div>
+			  </div>
 
 <!-- 					<div class="actions">
 						<ul>
@@ -28,32 +23,30 @@
 								<li><a href="http://popstats.unhcr.org/en/overview" title="Refworld">Population Statistics</a></li>
 							</ul>
 						</nav>
-					</div> -->
 
-				</div>
-			</div>
+						</div> -->
 		</div>
 
-		<div class="navbar-wrapper">
-			<div class="container menu">
-				<div class="row row-primary-nav">
-					<div class="col-md-12">
-						<div class="collapse navbar-collapse navHeaderCollapse" id="primary-nav">
-							<ul class="nav navbar-nav navbar-left">
-								<li {% if page =='styles' %}class="active"{% endif %}><a href="styles.html">STYLES</a></li>
-								<li {% if page =='charts' %}class="active"{% endif %}><a href="charts.html">Charts</a></li>
-								<li {% if page =='maps' %}class="active"{% endif %}><a href="maps.html">Maps</a></li>
-								<li {% if page =='webcomponents' %}class="active"{% endif %}><a href="webcomponents.html">Web Components</a></li>
-								<li {% if page =='resources' %}class="active"{% endif %}><a href="resources.html">resources</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<div id="header-nav">
+		    <ul id="header-nav-ul">
+				<li id="header-nav-home" {% if page =='home' %}class="active"{% endif %}><a href="home.html">Home</a></li>
+				<li {% if page =='styles' %}class="active"{% endif %}><a href="styles.html">STYLES</a></li>
+				<li {% if page =='charts' %}class="active"{% endif %}><a href="charts.html">Charts</a></li>
+				<li {% if page =='maps' %}class="active"{% endif %}><a href="maps.html">Maps</a></li>
+				<li {% if page =='webcomponents' %}class="active"{% endif %}><a href="webcomponents.html">Web Components</a></li>
+				<li {% if page =='resources' %}class="active"{% endif %}><a href="resources.html">resources</a></li>
+		    </ul>
+		  </div>
+
+
+
+
+
+<!-- 										<ul class="">
+
+							</ul> -->
 
 	</nav>
-</div>
 
 <div class="row row-primary-nav-search hide-search">
 	<div class="col-md-12" id="primary-nav-search-wrapper">

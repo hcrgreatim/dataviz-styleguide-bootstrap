@@ -5,7 +5,7 @@ Highcharts.chart('bar1', {
         marginTop: 70
     },
     title: {
-        text: 'Monthly Average Rainfall'
+        text: 'Trend of global displacement'
     },
     subtitle: {
         text: 'Source: WorldClimate.com'
@@ -16,12 +16,16 @@ Highcharts.chart('bar1', {
     yAxis: {
         min: 0,
         title: {
-            text: 'Rainfall (mm)',
+            text: 'Displaced population (millions)',
             rotation: 0,
             reserveSpace: false,
             align: 'high',
             textAlign: 'high',
-            offset: -10
+            y: -13,
+            x: -3
+        },
+        labels: {
+            y: 4
         }
     },
     legend: {
