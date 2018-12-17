@@ -2,16 +2,33 @@ Highcharts.chart('bar1', {
     chart: {
         type: 'column',
         styledMode: true,
-        marginTop: 70
+        marginTop: 55,
+        marginBottom: 40,
+        marginLeft: 20
     },
     title: {
-        text: 'Trend of global displacement'
+        text: '<b>Trend of global displacement</b> | 1997 - 2016',
+        align: 'left',
+        useHTML: 'true',
+        x: -9
     },
     subtitle: {
-        text: 'Source: WorldClimate.com'
+        text: '<b>Source:</b> UNHCR',
+        verticalAlign: 'bottom',
+        useHTML: 'true',
+        align: 'left',
+        x: -7
     },
     xAxis: {
-
+        tickLength: 0,
+        labels: {
+            y: 15,
+            formatter: function(){
+                var v = this.value;
+                v = v.toString();
+                return "'"+v.slice(-2);
+            }
+        }
     },
     yAxis: {
         min: 0,
@@ -21,11 +38,12 @@ Highcharts.chart('bar1', {
             reserveSpace: false,
             align: 'high',
             textAlign: 'high',
-            y: -13,
-            x: -3
+            y: -15,
+            x: -1
         },
         labels: {
-            y: 4
+            y: 3,
+            x: -4,
         }
     },
     legend: {
@@ -48,12 +66,12 @@ Highcharts.chart('bar1', {
             borderWidth: 0
         },
         series: {
-            pointStart: 1966
+            pointStart: 1996,
+            pointPadding: 0,
+            groupPadding: 0.1,
         }
     },
     series: [{
-        name: 'Tokyo',
-        data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
-
+        data: [37,34,35,38,38,42,41,39,40,38,39,43,42,43,44,42,45,51,60,65,66]
     }]
 });

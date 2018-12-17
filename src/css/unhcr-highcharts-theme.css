@@ -69,18 +69,21 @@
 
 /* Titles */
 .highcharts-title {
-  fill: #333333;
-  font-size: 1.5em;
+  fill: #0072BC;
+  color: #0072BC;
+  font-size: 1.1em;
 }
 
 .highcharts-subtitle {
-  fill: #666666;
+  fill: #999999;
+  color: #999999;
+  font-size: 0.8em;
 }
 
 /* Axes */
 .highcharts-axis-line {
   fill: none;
-  stroke: #ccd6eb;
+  stroke: #000;
 }
 
 .highcharts-yaxis .highcharts-axis-line {
@@ -89,21 +92,25 @@
 
 .highcharts-axis-title {
   fill: #666666;
+  font-size: 0.8em;
+
 }
 
 .highcharts-axis-labels {
-  fill: #666666;
+  fill: #000;
   cursor: default;
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 
 .highcharts-grid-line {
   fill: none;
-  stroke: #e6e6e6;
+  stroke: #666666;
+  stroke-dasharray: 1,1;
 }
 
 .highcharts-xaxis-grid .highcharts-grid-line {
   stroke-width: 0px;
+  stroke: #cccccc;
 }
 
 .highcharts-tick {
@@ -115,7 +122,7 @@
 }
 
 .highcharts-minor-grid-line {
-  stroke: #f2f2f2;
+  stroke: #cccccc;
 }
 
 .highcharts-crosshair-thin {
@@ -212,8 +219,8 @@ g.highcharts-series,
 /* Series options */
 /* Default colors */
 .highcharts-color-0 {
-  fill: #7cb5ec;
-  stroke: #7cb5ec;
+  fill: #0072bc;
+  stroke: #0072bc;
 }
 
 .highcharts-color-1 {
