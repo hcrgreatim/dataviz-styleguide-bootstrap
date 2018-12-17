@@ -224,8 +224,8 @@ g.highcharts-series,
 }
 
 .highcharts-color-1 {
-  fill: #434348;
-  stroke: #434348;
+  fill: #E5E5E5;
+  stroke: #E5E5E5;
 }
 
 .highcharts-color-2 {
@@ -287,8 +287,8 @@ g.highcharts-series,
 }
 
 .highcharts-data-label {
-  font-size: 0.9em;
-  font-weight: bold;
+  font-size: 1em;
+  font-weight: normal;
 }
 
 .highcharts-data-label-box {

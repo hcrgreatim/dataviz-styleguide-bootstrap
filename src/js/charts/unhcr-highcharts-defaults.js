@@ -1,19 +1,16 @@
-Highcharts.chart('bar1', {
+Highcharts.setOptions({
     chart: {
-        type: 'column',
         styledMode: true,
         marginTop: 55,
         marginBottom: 40,
         marginLeft: 20
     },
     title: {
-        text: '<b>Trend of global displacement</b> | 1997 - 2016',
         align: 'left',
         useHTML: 'true',
         x: -9
     },
     subtitle: {
-        text: '<b>Source:</b> UNHCR',
         verticalAlign: 'bottom',
         useHTML: 'true',
         align: 'left',
@@ -22,18 +19,12 @@ Highcharts.chart('bar1', {
     xAxis: {
         tickLength: 0,
         labels: {
-            y: 15,
-            formatter: function(){
-                var v = this.value;
-                v = v.toString();
-                return "'"+v.slice(-2);
-            }
+            y: 15
         }
     },
     yAxis: {
         min: 0,
         title: {
-            text: 'Displaced population (millions)',
             rotation: 0,
             reserveSpace: false,
             align: 'high',
@@ -63,15 +54,16 @@ Highcharts.chart('bar1', {
     plotOptions: {
         column: {
             pointPadding: 0.2,
-            borderWidth: 0
+            borderWidth: 0,
         },
         series: {
-            pointStart: 1996,
             pointPadding: 0,
             groupPadding: 0.1,
+            dataLabels: {
+                inside: false,
+                overflow: 'allow',
+                crop: false
+            }
         }
-    },
-    series: [{
-        data: [37,34,35,38,38,42,41,39,40,38,39,43,42,43,44,42,45,51,60,65,66]
-    }]
+    }
 });
