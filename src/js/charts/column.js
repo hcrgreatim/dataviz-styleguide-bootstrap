@@ -84,3 +84,55 @@ Highcharts.chart('column2', {
             ]
     }]
 });
+
+
+Highcharts.chart('bar1', {
+    chart: {
+        type: 'bar',
+        marginLeft: 100,
+        marginTop: 40,
+        marginBottom: 30
+    },
+    title: {
+        text: '<b>Number of refugees per 1,000 inhabitants</b> | end-2016*',
+    },
+    subtitle: {
+        text: '<b>Source:</b> UNHCR',
+    },
+    yAxis: {
+        visible: false,
+    },
+    xAxis: {
+        type: 'category',
+        labels: {
+            enabled: true,
+            y: 2,
+        },
+        visible: true
+    },
+    legend: {
+        enabled: false
+    },
+    plotOptions: {
+        series: {
+            dataLabels: {
+                enabled: true,
+            }
+        }
+    },
+    series: [{
+        colorIndex: 0,
+        data: [
+            {name: 'Lebanon', y: 169.16},
+            {name: 'Jordan', y: 88.44, colorIndex: 2},
+            {name: 'Turkey', y: 36.04},
+            {name: 'Chad', y: 26.99},
+            {name: 'Sweden', y: 23.36},
+            {name: 'Uganda', y: 23.33},
+            {name: 'South Sudan', y: 20.62},
+            {name: 'Djibouti', y: 19.66},
+            {name: 'Malta', y: 18.94},
+            {name: 'Mauritania', y: 17.79}
+        ],
+    }]
+});

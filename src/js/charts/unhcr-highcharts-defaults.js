@@ -23,7 +23,6 @@ Highcharts.setOptions({
         }
     },
     yAxis: {
-        min: 0,
         title: {
             rotation: 0,
             reserveSpace: false,
@@ -56,13 +55,18 @@ Highcharts.setOptions({
             pointPadding: 0.2,
             borderWidth: 0,
         },
+        bar: {
+            pointPadding: 0.2,
+            borderWidth: 0,
+        },
         series: {
             pointPadding: 0,
             groupPadding: 0.1,
             dataLabels: {
                 inside: false,
                 overflow: 'allow',
-                crop: false
+                crop: false,
+                y: -2,
             }
         }
     }
