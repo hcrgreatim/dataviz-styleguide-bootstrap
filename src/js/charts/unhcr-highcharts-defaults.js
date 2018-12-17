@@ -52,16 +52,16 @@ Highcharts.setOptions({
     },
     plotOptions: {
         column: {
-            pointPadding: 0.2,
+            pointPadding: 0.1,
             borderWidth: 0,
         },
         bar: {
-            pointPadding: 0.2,
+            pointPadding: 0.1,
             borderWidth: 0,
         },
         series: {
             pointPadding: 0,
-            groupPadding: 0.1,
+            groupPadding: 0.12,
             dataLabels: {
                 inside: false,
                 overflow: 'allow',
