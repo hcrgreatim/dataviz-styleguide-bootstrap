@@ -474,8 +474,7 @@ pre {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+ }
 
 .no-gutters {
   margin-right: 0;
@@ -6586,108 +6585,15 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #93A3AB;
   color: #93A3AB; }
 
-.colour-class {
-  text-transform: lowercase;
-  font-style: normal;
-  font-weight: bold; }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; }
+h1 {
+  line-height: 45px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 36px; }
 
-.brandbook {
-  position: relative;
-  max-width: 60%;
-  margin: 0 auto;
-  padding-top: 10px; }
-
-.brandbook .download-btn {
-  position: relative;
-  bottom: -5px;
-  left: 0px; }
-
-.download-btn a {
-  color: #FFF; }
-
-.colours .col-md-2,
-.colours .col-md-3,
-.colours .col-md-4 {
-  padding-left: 1px;
-  padding-right: 1px; }
-
-.p-2 {
-  padding: 3px;
-  font-size: 11px;
-  padding-left: 5px;
-  margin-bottom: 2px; }
-
-.p-2 p {
-  margin: 0px; }
-
-.text-white {
-  color: #FFF; }
-
-.p-2 .colour-label {
-  opacity: 0.8 !important;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-size: 10px; }
-
-.p-2.text-white .colour-label {
-  opacity: 0.8 !important; }
-
-/* UNHCR TEXT STYLES */
-.unhcr-chart-figure {
-  font-size: 12px;
-  font-weight: 300; }
-
-.unhcr-chart-title {
-  color: #0072bc;
-  font-size: 18px;
-  font-weight: 700; }
-
-.unhcr-chart-title-date {
-  color: #0072bc;
-  font-size: 18px;
-  font-weight: 300; }
-
-.unhcr-chart-subtitle {
-  font-size: 14px;
-  font-weight: 400; }
-
-.unhcr-chart-axis-title {
-  color: #666666;
-  font-size: 12px;
-  font-weight: 400; }
-
-.unhcr-chart-axis-label {
-  font-size: 12px;
-  font-weight: 400; }
-
-.unhcr-chart-data-label {
-  font-size: 12px;
-  font-weight: 400; }
-
-.unhcr-chart-data-highlight {
-  font-size: 12px;
-  font-weight: 700; }
-
-.unhcr-chart-legend-item {
-  font-size: 12px;
-  font-weight: 400; }
-
-.unhcr-chart-sources {
-  color: #999999;
-  font-size: 11px;
-  font-weight: 400; }
-
-.row {
-  margin-left: -12px;
-  margin-right: -12px; }
 
 h2 {
   border-bottom: 1px solid #E7E7E7;
@@ -6709,3 +6615,6 @@ h5 {
   line-height: 1.5;
   color: #333;
   text-transform: uppercase; }
+
+.test {
+  color: red; }
