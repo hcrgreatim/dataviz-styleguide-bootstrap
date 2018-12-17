@@ -897,10 +897,12 @@ border-bottom-left-radius: 0px;
 .jumbo {
 margin-bottom:20px;
 }
-.jumbotron .row {
+
+ .row {
 margin-left:0px;
 margin-right:0px;
 }
+
 .btn-primary,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary
